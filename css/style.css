@@ -4,7 +4,6 @@ body {
     font-family: 'Cairo', sans-serif;
     padding: 1rem;
 }
-<<<<<<< HEAD
 
 .t1 {
     font-size: 1.5rem;
@@ -16,22 +15,20 @@ body {
     font-size: 1rem;
     /* background-color: rgb(104, 153, 104); */
     padding: .5rem 0;
-=======
-.t1{
-    font-size: 2rem;
 }
-.t2{
-    font-size: 1rem;
->>>>>>> 4f767a75af849835568c4c42aebb0f3a6be6f0bc
-}
-.t3{
+
+.t3 {
     font-size: .7rem;
     color: red;
-    
+
 }
-.t1,.t2,.t3{
+
+.t1,
+.t2,
+.t3 {
     cursor: pointer;
 }
+
 li {
     padding: 0.5rem;
 }
@@ -39,14 +36,12 @@ li {
 a {
     text-decoration: none;
 }
-<<<<<<< HEAD
 
 ul {
     margin: 0;
     list-style-type: none;
 }
-a:visited{
-    color:inherit;
-  }
-=======
->>>>>>> 4f767a75af849835568c4c42aebb0f3a6be6f0bc
+
+a:visited {
+    color: black;
+}
