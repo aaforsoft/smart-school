@@ -1,16 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700;800;1000&display=swap');
-body{
+
+body {
     font-family: 'Cairo', sans-serif;
+    padding: 1rem;
 }
-.t1{
-    font-size: 3rem;
+
+.t1 {
+    font-size: 1.5rem;
+    /* background-color: green; */
+    padding: .5rem 0;
 }
-.t2{
-    font-size: 2rem;
+
+.t2 {
+    font-size: 1rem;
+    /* background-color: rgb(104, 153, 104); */
+    padding: .5rem 0;
 }
-li{
+.t3{
+    font-size: .7rem;
+    color: red;
+    
+}
+.t1,.t2,.t3{
+    cursor: pointer;
+}
+li {
     padding: 0.5rem;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+a:visited{
+    color:inherit;
+  }
