@@ -24,7 +24,7 @@ details {
 
 .t2 {
     font-size: 1.3rem;
-    padding-right: 40px;
+    margin: 20px 30px 20px 0;
     /* background-color: rgb(104, 153, 104); */
 
 }
@@ -37,11 +37,11 @@ ol {
 .t3 {
     font-size: 1rem;
     /* color: red; */
-    margin-right: 80px;
+    margin: 10px 0 10px 0;
     background-color: white;
     width: 90%;
-    margin-bottom: 0.5rem;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .t1,
@@ -65,18 +65,21 @@ ul {
     list-style-type: none;
 }
 
+.sec-title {
+    padding-bottom: 20px;
+}
+
 a:visited {
     color: black;
 }
 
 table.greenTable {
-    /* font-family: "Arial Black", Gadget, sans-serif; */
     border: 2px solid #24943A;
     background-color: #D4EED1;
-    min-width: 25%;
+    min-width: 30%;
     /* text-align: center; */
     border-collapse: collapse;
-    padding-right: 120px;
+    padding-top: 120px;
 }
 
 table.greenTable td,
@@ -86,9 +89,9 @@ table.greenTable th {
 }
 
 table.greenTable tbody td {
-    font-size: 13px;
+    font-size: 15px;
     padding: 5px;
-    font-size: medium;
+    /* font-size: medium; */
     font-weight: bold;
 }
 
