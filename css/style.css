@@ -75,17 +75,26 @@ a:visited {
 
 table.greenTable {
     border: 2px solid #24943A;
-    background-color: #D4EED1;
+    /* background-color: #D4EED1; */
     min-width: 30%;
     /* text-align: center; */
     border-collapse: collapse;
     padding-top: 120px;
 }
 
+table.greenTable tr:nth-child(even) {
+    background-color: #D4EED1;
+}
+
 table.greenTable td,
 table.greenTable th {
-    border: 1px solid #24943A;
+    border-left: 1px solid #24943A;
     padding: 5px;
+
+}
+
+th {
+    background-color: #24943A;
 }
 
 table.greenTable tbody td {
