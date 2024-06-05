@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+    <!-- Import style.css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>الصف الثالث</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar-fixed ">
+        <nav class="blue-grey lighten-1">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#home" class="brand-logo left">Smart School</a>
+                    <!-- <a href="#" data-target="mobile-nav" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            > -->
+                    <ul class="right">
+                        <li><a href="https://t.me/smartschooegy/1">جروب التيليجرام</a></li>
+                        <li><a href="../index.html">الرئيسية</a></li>
+                        <!-- <li>
+                <a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
+              </li> -->
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Breadcrumbs -->
+    <div class="section">
+        <nav class="blue-grey lighten-1">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="col s12 center">
+                        <a href="#!" class="breadcrumb">الصف الثالث</a>
+                        <a href="#!" class="breadcrumb">الترم الأول</a>
+                        <a href="#!" class="breadcrumb">اللغة العربية</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- main -->
+    <!-- books -->
+    <section id="books" class="books scrollspy">
+        <div dir="rtl" class="container">
+            <h4>الكتب</h4>
+            <div id="g3_t1_arabic_books" class="row">
+                <!-- 1 -->
+                <!-- <div class="col l2 m3 s6 center">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="../img/IMG1.png">
+                        </div>
+                        <div class="card-content">
+                            <a class="card-title activator grey-text text-darken-4 center">سلاح التلميذ</a>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- 1 -->
+                
+            </div>
+        </div>
+
+    </section>
+    <section id="lessons" class="lessons scrollspy">
+        <div dir="rtl" class="container">
+            <h4>الشرح</h4>
+
+
+            <ul dir="rtl" id="g3_t1_arabic_lessons" class="collapsible">
+
+                <!-- <li>
+                    <div class="collapsible-header">المحور الأول</div>
+                    <div class="collapsible-body">
+                        <span>
+                            <details>
+                                <summary>الموضوع الاول</summary>
+                                <table dir="rtl" class="striped highlight responsive-table" >
+                                    <thead>
+                                    <tr>
+                                      <th>الدرس</th>
+                                      <th>فيديوهات</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="chapter-${chapter.chapter_id}">
+                                    </tbody>
+                                    </table>
+                            </details>
+                        </span>
+                    </div>
+                </li> -->
+            </ul>
+
+        </div>
+    </section>
+    <section id="video-section">
+
+    </section>
+    <script src="data/fun.js" type="module"></script>
+    <script src="data/g3_t1_arabic.js" type="module"></script>
+
+
+    <!-- materialize JS -->
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var elems = document.querySelectorAll(".collapsible");
+            var instances = M.Collapsible.init(elems);
+        });
+
+        const sideNav = document.querySelectorAll(".sidenav");
+        M.Sidenav.init(sideNav);
+
+        const slider = document.querySelectorAll(".slider");
+        M.Slider.init(slider, {
+            indicators: false,
+            height: 500,
+            transition: 600,
+            interval: 2500,
+        });
+
+        const parallax = document.querySelectorAll(".parallax");
+        M.Parallax.init(parallax);
+
+        const materialbox = document.querySelectorAll(".materialboxed");
+        M.Materialbox.init(materialbox);
+
+        const scroll = document.querySelectorAll(".scrollspy");
+        M.ScrollSpy.init(scroll, {
+            scrollOffset: 50,
+        });
+
+        const dropdown = document.querySelectorAll(".dropdown-trigger");
+        M.Dropdown.init(dropdown);
+    </script>
+</body>
+
+</html>
