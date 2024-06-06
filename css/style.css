@@ -1,4 +1,15 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+body{
+ /* all font familly cairo    */
+    font-family: 'Cairo', sans-serif;
+    /* font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
 .chapter-style {
     border: 1px solid #607d8b;
     padding: 10px;
@@ -7,19 +18,29 @@
 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.chapter-title{
-    padding: 5px 0;
+
+.chapter-title {
+    padding: 0.5rem 0.8rem;
     border-radius: 10px;
     cursor: pointer;
     /* open or close smooth */
-    
+
 }
-.book-card-title{
+
+.book-card-title {
     padding: 20px 0;
     cursor: pointer;
 }
+.lessons-table,summary{
+    font-weight: bold;
+}
+
 .video-link {
     margin: 1rem 0;
+}
+
+.video-item {
+    padding-bottom: 0.5rem;
 }
 
 #video {
@@ -29,7 +50,10 @@
     top: 64px;
     left: 0;
     right: 0;
-    height: 85dvh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fixed-action-btn {
@@ -37,6 +61,16 @@
     right: 4px;
     top: 54px;
 }
-.video-link{
+
+.video-link {
     cursor: pointer;
+}
+
+ul.collapsible,
+ul.lesson-list {
+    padding: 0;
+}
+
+.collapsible-body {
+    padding: 0;
 }

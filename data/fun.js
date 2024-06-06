@@ -48,7 +48,7 @@ function draw_lessons(lessons_list, container_id) {
       <span>
       <details class="chapter-style">
       <summary class="teal lighten-4 chapter-title"> ${chapter.chapter_name} </summary>
-      <table  class="striped highlight  right-align" >
+      <table  class="lessons-table striped highlight  right-align" >
       <thead >
       <tr >
         <th class="right-align">الدرس</th>
@@ -67,14 +67,14 @@ function draw_lessons(lessons_list, container_id) {
         <tr>
         <td class="right-align">${lesson.lesson_name}</td>
         <td class="right-align">
-        <ul id="lesson-${lesson.lesson_id}"> 
+        <ul class="lesson-list" id="lesson-${lesson.lesson_id}"> 
         </ul>
         </td>
         </tr>
         `;
         lesson.videos.forEach((video) => {
           document.getElementById(`lesson-${lesson.lesson_id}`).innerHTML += `
-          <li >
+          <li class="video-item">
           <a class="video-link" href="#video" data-parent="${video.video_link}" >
           ${video.video_title}
           </a>
