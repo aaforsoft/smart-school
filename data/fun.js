@@ -48,7 +48,7 @@ function draw_lessons(lessons_list, container_id) {
       <span>
       <details class="chapter-style">
       <summary class="teal lighten-4 chapter-title"> ${chapter.chapter_name} </summary>
-      <table  class="lessons-table striped highlight  right-align" >
+      <table  class="lessons-table striped right-align" >
       <thead >
       <tr >
         <th class="right-align">الدرس</th>

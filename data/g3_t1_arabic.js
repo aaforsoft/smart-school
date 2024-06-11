@@ -58,17 +58,17 @@ var g3_t1_arabic_lessons = [
             ],
           },
           //الدرس 3
-          {
-            lesson_id: "1-1-3",
-            lesson_name: "الدليل العام لنصوص الاستماع",
-            videos: [
-              {
-                video_id: "1-1-3-1",
-                video_title: "",
-                video_link: "",
-              },
-            ],
-          },
+          // {
+          //   lesson_id: "1-1-3",
+          //   lesson_name: "الدليل العام لنصوص الاستماع",
+          //   videos: [
+          //     {
+          //       video_id: "1-1-3-1",
+          //       video_title: "",
+          //       video_link: "",
+          //     },
+          //   ],
+          // },
           //الدرس 4
           {
             lesson_id: "1-1-4",
@@ -95,23 +95,24 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "1-1-5-1",
-                video_title: "",
-                video_link: "",
+                video_title: "هشرحلك عربي : محمد فياض",
+                video_link:
+                  "https://www.youtube.com/embed/IrnUSE-WcMs?si=rkGxzbKPU63uD387",
               },
             ],
           },
           //الدرس 6
-          {
-            lesson_id: "1-1-6",
-            lesson_name: "الدليل العام لنصوص القراءة وأنشطتها",
-            videos: [
-              {
-                video_id: "1-1-6-1",
-                video_title: "",
-                video_link: "",
-              },
-            ],
-          },
+          // {
+          //   lesson_id: "1-1-6",
+          //   lesson_name: "الدليل العام لنصوص القراءة وأنشطتها",
+          //   videos: [
+          //     {
+          //       video_id: "1-1-6-1",
+          //       video_title: "",
+          //       video_link: "",
+          //     },
+          //   ],
+          // },
           //الدرس 7
           {
             lesson_id: "1-1-7",
@@ -123,6 +124,12 @@ var g3_t1_arabic_lessons = [
                 video_link:
                   "https://www.youtube.com/embed/369nbOWr-Rk?si=Uw7MxsrMw83lc8s6",
               },
+              {
+                video_id: "1-1-7-2",
+                video_title: "تمثيل القصة : احمد عبدالجواد",
+                video_link:
+                  "https://www.youtube.com/embed/uvjHIXvSBjI?si=4Aiv5my3o7iPCwDd",
+              }
             ],
           },
           //الدرس 8
@@ -132,8 +139,9 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "1-1-8-1",
-                video_title: "",
-                video_link: "",
+                video_title: "هشرحلك عربي : محمد فياض",
+                video_link:
+                  "https://www.youtube.com/embed/CRkA4RG0B-s?si=B1sT3VFsL9jLTWQT",
               },
             ],
           },
@@ -157,8 +165,9 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "1-1-10-1",
-                video_title: "",
-                video_link: "",
+                video_title: "تعلم مع نانا",
+                video_link:
+                  "https://www.youtube.com/embed/YA9UInYpHNw?si=RNclWXaNP5rOrkfr",
               },
             ],
           },
@@ -202,8 +211,22 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "1-2-2-1",
-                video_title: "",
-                video_link: "",
+                video_title: "نهال طارق",
+                video_link:
+                  "https://www.youtube.com/embed/Yoq4dF_cFiU?si=VCBUBl6PAYAYheAd",
+              },
+              {
+                video_id: "1-2-2-2",
+                video_title: "زمرده  ا/ مي",
+                video_link:
+                  "https://www.youtube.com/embed/dkrBOcogBD8?si=ssAXvXVgqDvuY4ir",
+              },
+
+              {
+                video_id: "1-2-2-3",
+                video_title: "العربي الميسر",
+                video_link:
+                  "https://www.youtube.com/embed/-auoMFLjOD0?si=mDLUVRg-tvjwe7Vz",
               },
             ],
           },
@@ -227,8 +250,9 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "1-2-4-1",
-                video_title: "",
-                video_link: "",
+                video_title: "هشرحلك عربي : محمد فياض",
+                video_link:
+                  "https://www.youtube.com/embed/_uOXMETVbWk?si=Mw2lKF6SrDx7TJHN",
               },
             ],
           },
@@ -253,8 +277,9 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "1-2-6-1",
-                video_title: "",
-                video_link: "",
+                video_title: "هشرحلك عربي : محمد فياض",
+                video_link:
+                  "https://www.youtube.com/embed/TmXJXAOGWso?si=DO94Wmbe_L_QbksT",
               },
             ],
           },
@@ -265,8 +290,15 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "1-2-7-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مها سعيد",
+                video_link:
+                  "https://www.youtube.com/embed/TutsssSv4EM?si=vZhln0QU8fWDc1uI",
+              },
+              {
+                video_id: "1-2-7-2",
+                video_title: "ذاكرلي عربي : كريم شندي",
+                video_link:
+                  "https://www.youtube.com/embed/xTcdpq1iSkc?si=8d6bmis8Xp4Qjl2S",
               },
             ],
           },
@@ -304,9 +336,10 @@ var g3_t1_arabic_lessons = [
             lesson_name: "لاحظ وتعلم ( الحركة الطويلة والقصيرة )",
             videos: [
               {
-                video_id: "1-3-2",
-                video_title: "",
-                video_link: "",
+                video_id: "1-3-2-1",
+                video_title: "سماح النجار",
+                video_link:
+                  "https://www.youtube.com/embed/Ddy8jo6jyiY?si=Gq-FjzTYBnkLwayg",
               },
             ],
           },
@@ -330,8 +363,9 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "1-3-4",
-                video_title: "",
-                video_link: "",
+                video_title: "هشرحلك عربي : محمد فياض",
+                video_link:
+                  "https://www.youtube.com/embed/n6hnhYDmQ-s?si=gpaCeUg1LNiUX9gy",
               },
             ],
           },
@@ -355,9 +389,16 @@ var g3_t1_arabic_lessons = [
               "لاحظ واكتشف (الكلمات الدالة على الماضي والمضارع، والفعل الماضي مع المذكر والمؤنث )",
             videos: [
               {
-                video_id: "1-3-6",
-                video_title: "",
-                video_link: "",
+                video_id: "1-3-6-1",
+                video_title: "ايمان مدحت",
+                video_link:
+                  "https://www.youtube.com/embed/EYLPuyKNDQA?si=cvoAtoMErymEJQbl",
+              },
+              {
+                video_id: "1-3-6-2",
+                video_title: "نادية مصطفي",
+                video_link:
+                  "https://www.youtube.com/embed/qElmCOoq4Ro?si=lMvy7-Bo0Ym1pCy6",
               },
             ],
           },
@@ -404,8 +445,9 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-1-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "نادية مصطفي",
+                video_link:
+                  "https://www.youtube.com/embed/xNg3fsB8l9Y?si=skAnya0CPvLaEjqr",
               },
             ],
           },
@@ -416,8 +458,13 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-1-2-1",
-                video_title: "",
-                video_link: "",
+                video_title: "محمد عبدالرازق",
+                video_link: "https://www.youtube.com/embed/Ia5glKuco7o?si=25u5mfmF6z6IllGo",
+              },
+              {
+                video_id: "2-1-2-2",
+                video_title: "مس ايمان",
+                video_link: "https://www.youtube.com/embed/TcGHlbsjjdo?si=ShkDFmf12o-YTHiv",
               },
             ],
           },
@@ -428,8 +475,13 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-1-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مها سعيد",
+                video_link: "https://www.youtube.com/embed/HTJ-iDncdFU?si=4IUC4Ak8gkJAcxVR",
+              },
+              {
+                video_id: "2-1-3-2",
+                video_title: "تعلم مع نانا",
+                video_link: "https://www.youtube.com/embed/MeDpN6kQDJM?si=Xg-jr02eNb9hZlIv",
               },
             ],
           },
@@ -440,8 +492,9 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-1-4-1",
-                video_title: "",
-                video_link: "",
+                video_title: "هشرحلك عربي : محمد فياض",
+                video_link:
+                  "https://www.youtube.com/embed/p_fp6-dspJ8?si=dhfPpT1tqJigLRdo",
               },
             ],
           },
@@ -452,8 +505,13 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-1-5-1",
-                video_title: "",
-                video_link: "",
+                video_title: "محمود اشرف",
+                video_link: "https://www.youtube.com/embed/qtVC8cpEIFc?si=PG1d2jNJImtDwzIS",
+              },
+              {
+                video_id: "2-1-5-2",
+                video_title: "مها سعيد",
+                video_link: "https://www.youtube.com/embed/9reYqYEw2KE?si=yNV3ecYCY2qlKQhQ",
               },
             ],
           },
@@ -464,8 +522,9 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-1-6-1",
-                video_title: "",
-                video_link: "",
+                video_title: "هشرحلك عربي : محمد فياض",
+                video_link:
+                  "https://www.youtube.com/embed/4sPtf8vO_Pk?si=2mxMdGmi9Ag8Mwtb",
               },
             ],
           },
@@ -476,8 +535,8 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-1-7-1",
-                video_title: "",
-                video_link: "",
+                video_title: "احمد عبدالجواد",
+                video_link: "https://www.youtube.com/embed/igGpsOOkaJI?si=OIwTzD6ERx1u0WtK",
               },
             ],
           },
@@ -504,8 +563,13 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-2-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "3d city",
+                video_link: "https://www.youtube.com/embed/IA0xQbAcKp8?si=ZlVlji2MoaAxd_tm",
+              },
+              {
+                video_id: "2-2-1-2",
+                video_title: "مها سعيد",
+                video_link: "https://www.youtube.com/embed/wjtdYJhefG0?si=3uD1FfNT_KH9vt77",
               },
             ],
           },
@@ -519,6 +583,11 @@ var g3_t1_arabic_lessons = [
                 video_title: "",
                 video_link: "",
               },
+              {
+                video_id: "2-2-2-2",
+                video_title: "نهال طارق",
+                video_link: "https://www.youtube.com/embed/p6wWtYsAzmI?si=tftFIAX5M2-oedcF",
+              },
             ],
           },
           //الدرس 3
@@ -528,8 +597,13 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-2-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "3d city",
+                video_link: "https://www.youtube.com/embed/ysKe2lzMfXc?si=wDODnUnpAT58JVKG",
+              },
+              {
+                video_id: "2-2-3-2",
+                video_title: "مها سعيد",
+                video_link: "https://www.youtube.com/embed/zRJUCqNdsak?si=Z83TazRULufsdAfx",
               },
             ],
           },
@@ -540,8 +614,13 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-2-4-1",
-                video_title: "",
-                video_link: "",
+                video_title: "تعلم مع نانا",
+                video_link: "https://www.youtube.com/embed/9sjQWcyOito?si=38S36smMi6uQ8GFD",
+              },
+              {
+                video_id: "2-2-4-2",
+                video_title: "نهال طارق",
+                video_link: "https://www.youtube.com/embed/YkQUFSZy7pQ?si=ROkaXueM6-ZYdJaL",
               },
             ],
           },
@@ -552,8 +631,13 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-2-5-1",
-                video_title: "",
-                video_link: "",
+                video_title: "شيماء درويش",
+                video_link: "https://www.youtube.com/embed/j7sAfV5Vec8?si=kdfaojsLSCgxXM4v",
+              },
+              {
+                video_id: "2-2-5-2",
+                video_title: "مها سعيد",
+                video_link: "https://www.youtube.com/embed/d9Hwpwr-ZPc?si=iO_anr2wyK1YTo2Y",
               },
             ],
           },
@@ -564,8 +648,9 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-2-6-1",
-                video_title: "",
-                video_link: "",
+                video_title: "هشرحلك عربي : محمد فياض",
+                video_link:
+                  "https://www.youtube.com/embed/p_fp6-dspJ8?si=e_52W76hVZbdJbDa",
               },
             ],
           },
@@ -576,8 +661,8 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-2-7-1",
-                video_title: "",
-                video_link: "",
+                video_title: "تعلم مع نانا",
+                video_link: "https://www.youtube.com/embed/5jAMknFRAns?si=idilzkBzFtvTGqTr",
               },
             ],
           },
@@ -605,8 +690,13 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-3-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "3d city",
+                video_link: "https://www.youtube.com/embed/2Ld6Jou9KMg?si=_d_7lX_IHICzxDBw",
+              },
+              {
+                video_id: "2-3-1-2",
+                video_title: "مها سعيد",
+                video_link: "https://www.youtube.com/embed/6G7E7dlzLis?si=CYti59fsL8_26VXW",
               },
             ],
           },
@@ -617,6 +707,11 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-3-2-1",
+                video_title: "جميله عمر",
+                video_link: "https://www.youtube.com/embed/z9tZiCWvlwo?si=i1AdHzeQ8_oz_vFs",
+              },
+              {
+                video_id: "2-3-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -629,8 +724,13 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-3-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "3d city",
+                video_link: "https://www.youtube.com/embed/d5DIe12lRBM?si=YVEKZBXGXcvv59XS",
+              },
+              {
+                video_id: "2-3-3-2",
+                video_title: "مها سعيد",
+                video_link: "https://www.youtube.com/embed/7G7VhCn6YXA?si=3B2s-QxzJJbU2qNG",
               },
             ],
           },
@@ -641,6 +741,11 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-3-4-1",
+                video_title: "جميله عمر",
+                video_link: "https://www.youtube.com/embed/dplvrH7ghZs?si=GnB9vd_ZDx5CWNMD",
+              },
+              {
+                video_id: "2-3-4-2",
                 video_title: "",
                 video_link: "",
               },
@@ -653,8 +758,13 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-3-5-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مها سعيد",
+                video_link: "https://www.youtube.com/embed/9iHFxo7mAyE?si=24HvINxugcNkQ5CQ",
+              },
+              {
+                video_id: "2-3-5-2",
+                video_title: "انا عربي : دعاء العقبي",
+                video_link: "https://www.youtube.com/embed/Q3VsIBCnHjA?si=W3l2G4L_4CletzvN",
               },
             ],
           },
@@ -665,8 +775,13 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-3-6-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مس داليا",
+                video_link: "https://www.youtube.com/embed/YS24MyMIhUk?si=d_9w27isQUqvs98r",
+              },
+              {
+                video_id: "2-3-6-2",
+                video_title: "تعلم مع نانا",
+                video_link: "https://www.youtube.com/embed/341QsJEWTLk?si=AamHLOK6EDkIs_y5",
               },
             ],
           },
@@ -677,6 +792,11 @@ var g3_t1_arabic_lessons = [
             videos: [
               {
                 video_id: "2-3-7-1",
+                video_title: "انا عربي : دعاء العقبي",
+                video_link: "https://www.youtube.com/embed/IFcuc0y0mmA?si=Xw-C1M62VACFyZLI",
+              },
+              {
+                video_id: "2-3-7-2",
                 video_title: "",
                 video_link: "",
               },

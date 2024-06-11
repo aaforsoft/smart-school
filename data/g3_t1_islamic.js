@@ -37,8 +37,8 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "1-1-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "ميس ماهيتاب",
+                video_link: "https://www.youtube.com/embed/2eU2IDATGlE?si=Of9ZXDpqDAUgd07t",
               },
             ],
           },
@@ -49,8 +49,8 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "1-1-2-1",
-                video_title: "",
-                video_link: "",
+                video_title: "ميس ماهيتاب",
+                video_link: "https://www.youtube.com/embed/Mh8Rx1vXqB0?si=llwl9rWcxAd5dq6i",
               },
             ],
           },
