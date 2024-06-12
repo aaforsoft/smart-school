@@ -38,8 +38,9 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/tt7dnsOXITk?si=sIjiutymTUiYbrlu",
               },
             ],
           },
@@ -50,6 +51,12 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-2-1",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/9HohFRtjkts?si=MiJm0dhrlb9a5D4U",
+              },
+              {
+                video_id: "1-1-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -62,8 +69,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/8LeVDS1Dr88?si=Lp0N5Gud7zGqhyM6",
+              },
+              {
+                video_id: "1-1-3-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/fGB1KuBK3DM?si=Ww9QY_BvvtekQI0i",
               },
             ],
           },
@@ -75,8 +89,21 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-4-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مستر محمد ابراهيم - المللي متر ",
+                video_link:
+                  "https://www.youtube.com/embed/yPdhymMOe7M?si=2-ufceWwDjp8CwOd",
+              },
+              {
+                video_id: "1-1-4-2",
+                video_title: "مستر محمد ابراهيم - المتر , السنتيمتر ",
+                video_link:
+                  "https://www.youtube.com/embed/j2S6gtyIeu4?si=FQ-OxvgVYxotj5Ui",
+              },
+              {
+                video_id: "1-1-4-3",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/kfyFyFOLMhY?si=goBR_-JUAhoHN02q",
               },
             ],
           },
@@ -102,8 +129,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/S27tGYRWNNM?si=iqy601IIv9Jhz9ZA",
+              },
+              {
+                video_id: "1-2-1-2",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/v4Pd4iSZ9XQ?si=6_IR3D-WtpOnsR_J",
               },
             ],
           },
@@ -114,6 +148,12 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-2-1",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/G7dOnMmbXTM?si=AwzLsttfhnDDi_PF",
+              },
+              {
+                video_id: "1-2-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -127,8 +167,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/JAEn7dXnxto?si=m5wzlMnP_V9Y7z24",
+              },
+              {
+                video_id: "1-2-3-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/TbBOUdjGOFM?si=2cvTZGCKpa96VcxV",
               },
             ],
           },
@@ -139,8 +186,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-4-1",
-                video_title: "",
-                video_link: "",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/OVO1IhFnIzM?si=3VOiUmt34KTxYoOp",
+              },
+              {
+                video_id: "1-2-4-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/1aO2c7pf0Bw?si=nCA_b1STZfHkQMtE",
               },
             ],
           },
@@ -151,8 +205,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-5-1",
-                video_title: "",
-                video_link: "",
+                video_title: "حكاية الرياضات",
+                video_link:
+                  "https://www.youtube.com/embed/jSLz4a1fo7E?si=_weYapywq5i0oem8",
+              },
+              {
+                video_id: "1-2-5-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/9hW-PRppua8?si=4SG5ccbBxQ2PCANr",
               },
             ],
           },
@@ -163,8 +224,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-6-1",
-                video_title: "",
-                video_link: "",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/YjbxfIujPhw?si=Jsio24CL2cJTBHT3",
+              },
+              {
+                video_id: "1-2-6-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/98JcfqZS8IQ?si=3bZweTVmGuhzYfeH",
               },
             ],
           },
@@ -192,8 +260,21 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-3-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/o-PEP9U_slg?si=D826glZyRiS71IPi",
+              },
+              {
+                video_id: "1-3-1-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/_OA_Qn8_B0I?si=gOHxhBpbQjbF0EjF",
+              },
+              {
+                video_id: "1-3-1-3",
+                video_title: "مستر محمد ابراهيم - 2",
+                video_link:
+                  "https://www.youtube.com/embed/YCKmBR3fhkA?si=RJD2eWCsT6aFqmlN",
               },
             ],
           },
@@ -204,8 +285,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-3-2-1",
-                video_title: "",
-                video_link: "",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/uiKE94EP8xU?si=2RwEYUQ044kndfQ1",
+              },
+              {
+                video_id: "1-3-2-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/b8Y6n0v2bas?si=LKw-UL4cEClqLmT7",
               },
             ],
           },
@@ -216,8 +304,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-3-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/Pz9rdU6Hk-4?si=lTxjbGtspZtvGyfG",
+              },
+              {
+                video_id: "1-3-3-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/UodyEDnW-XI?si=rpW1klxSNRJEyFBr",
               },
             ],
           },
@@ -228,8 +323,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-3-4-1",
-                video_title: "",
-                video_link: "",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/ebVrbrGHszk?si=QOPNAcRYuf1l_4L-",
+              },
+              {
+                video_id: "1-3-4-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/UodyEDnW-XI?si=BwbzcsYl0As9WSxF&amp;start=1086",
               },
             ],
           },
@@ -240,8 +342,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-3-5-1",
-                video_title: "",
-                video_link: "",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/5Ta9mqoi490?si=nGah6DkGv0uwwEh6",
+              },
+              {
+                video_id: "1-3-5-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/iXS4M8n-6Rk?si=_-dkdgj48UjcZoO4&amp;start=1086",
               },
             ],
           },
@@ -252,8 +361,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-3-6-1",
-                video_title: "",
-                video_link: "",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/YkIdevl2qig?si=aUGv7DsNWRvZ-ZU2",
+              },
+              {
+                video_id: "1-3-6-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/nGLx6HhCaWw?si=SPza1vZmDCIiOHXS",
               },
             ],
           },
@@ -264,8 +380,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-3-7-1",
-                video_title: "",
-                video_link: "",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/4UMUTNsub9o?si=FwJCD5hbrOECjxcp",
+              },
+              {
+                video_id: "1-3-7-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/fB95Lj_0MRI?si=U1rjQRMaYUHt93E9",
               },
             ],
           },
@@ -291,8 +414,21 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-4-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "حكاية الرياضيات",
+                video_link:
+                  "https://www.youtube.com/embed/Zg0OQO94Vd4?si=6C3eBtu9H9QRezBI",
+              },
+              {
+                video_id: "1-4-1-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/fB95Lj_0MRI?si=U1rjQRMaYUHt93E9&amp;start=1241",
+              },
+              {
+                video_id: "1-4-1-3",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/26DNzpn2dOk?si=yP5Z2nqMHJY2RLOV",
               },
             ],
           },
@@ -303,8 +439,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-4-2-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/0yntIliaSI8?si=KvwFFqGWQRiSQmCj",
+              },
+              {
+                video_id: "1-4-2-2",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/2j6JycMFBEA?si=7kYLuIVbA6YEPbst",
               },
             ],
           },
@@ -315,8 +458,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-4-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/0yntIliaSI8?si=BEKSqmitQXRPJxse&amp;start=1009",
+              },
+              {
+                video_id: "1-4-3-2",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/dbHWl3tctjE?si=3Iq2ocLz7I0-HQ0P",
               },
             ],
           },
@@ -327,8 +477,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-4-4-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/LvDAbgtLW-I?si=nmhi1bLmlbyYAohb",
+              },
+              {
+                video_id: "1-4-4-2",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/mwECV6WPyDE?si=noZ2RRkCUHNk5FVs",
               },
             ],
           },
@@ -339,8 +496,9 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-4-5-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/LvDAbgtLW-I?si=BmlD-y21l4i1X2BL&amp;start=955",
               },
             ],
           },
@@ -352,8 +510,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-4-6-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/kn7K0BDSoq8?si=ljySYjJrgXYeUV0k",
+              },
+              {
+                video_id: "1-4-6-1",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/yqCvMMLMPhM?si=QkudQzctDCAX2zQS",
               },
             ],
           },
@@ -379,8 +544,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-5-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/CQHzxY1qLY0?si=gepWLm2LgE9Z1ABj",
+              },
+              {
+                video_id: "1-5-1-2",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/Pzm_rssDwrs?si=oXW-EjRze9I93PNJ",
               },
             ],
           },
@@ -391,8 +563,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-5-2-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/Pzm_rssDwrs?si=jxQFv5WMdU4hCy3E",
+              },
+              {
+                video_id: "1-5-2-2",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/sP2eTdjoa1c?si=kdlxot-iDjgjIi5y",
               },
             ],
           },
@@ -404,8 +583,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-5-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/ky9MhtmktII?si=7MpXl1SoI2nW2rO7",
+              },
+              {
+                video_id: "1-5-3-2",
+                video_title: "مستر السيد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/LQhgyjKc5-I?si=dGTpRAqQeWdatMnd",
               },
             ],
           },
@@ -417,8 +603,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-5-4-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/HsQABBT8_Qk?si=0lorPtrJKP6aFIaN",
+              },
+              {
+                video_id: "1-5-4-2",
+                video_title: "مستر السيد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/KbffL_4rHLQ?si=uew6-xoMsYuzqnV9",
               },
             ],
           },
@@ -429,8 +622,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-5-5-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/6BuOgI3LOoY?si=i2Su2K-pkFj5YKyF",
+              },
+              {
+                video_id: "1-5-5-2",
+                video_title: "مستر السيد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/XRmtV4BZAlk?si=7wkEdq5g5ir1CjN9",
               },
             ],
           },
@@ -441,8 +641,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-5-6-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/GY6wqsC7Pm8?si=dkoSj1JOZSBajBfn",
+              },
+              {
+                video_id: "1-5-6-2",
+                video_title: "مستر السيد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/-mVIphNfHMI?si=wm72OX7hDjpJYveY",
               },
             ],
           },
@@ -470,8 +677,15 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-6-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/aCGpQl1O2yA?si=VVqEkCSE_Ba9_QsV",
+              },
+              {
+                video_id: "1-6-1-2",
+                video_title: "مستر السيد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/7_D9SZTGn2k?si=J0dCDDhJap3FpkAs",
               },
             ],
           },
@@ -482,8 +696,9 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-6-2-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/yLt6CYZ9ncY?si=54VArQ7U104uLpb4",
               },
             ],
           },
@@ -494,8 +709,9 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-6-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/XYXE107v7zo?si=uHd2kqwl8EOdiZjl",
               },
             ],
           },
@@ -506,8 +722,9 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-6-4-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/Ads54fWTzLw?si=zLwPIcRnyb3K5gta",
               },
             ],
           },
@@ -518,8 +735,9 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-6-5-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/3sNRpGZtlJQ?si=Z2E7uR2OVfqd-hC-",
               },
             ],
           },
@@ -530,8 +748,9 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-6-6-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/-U22XoUTgas?si=kVmPWeqedR8VTfYP",
               },
             ],
           },
@@ -554,8 +773,9 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-6-8-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عبير عباس",
+                video_link:
+                  "https://www.youtube.com/embed/NCzbZjitJR4?si=Vdl3nnQHcivJ18KK",
               },
             ],
           },

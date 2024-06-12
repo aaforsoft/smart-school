@@ -38,7 +38,8 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "1-1-1-1",
                 video_title: "ميس ماهيتاب",
-                video_link: "https://www.youtube.com/embed/2eU2IDATGlE?si=Of9ZXDpqDAUgd07t",
+                video_link:
+                  "https://www.youtube.com/embed/2eU2IDATGlE?si=Of9ZXDpqDAUgd07t",
               },
             ],
           },
@@ -50,7 +51,8 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "1-1-2-1",
                 video_title: "ميس ماهيتاب",
-                video_link: "https://www.youtube.com/embed/Mh8Rx1vXqB0?si=llwl9rWcxAd5dq6i",
+                video_link:
+                  "https://www.youtube.com/embed/Mh8Rx1vXqB0?si=llwl9rWcxAd5dq6i",
               },
             ],
           },
@@ -61,8 +63,15 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "1-1-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "داليا صلاح",
+                video_link:
+                  "https://www.youtube.com/embed/9GSYHkgTyBg?si=EOgbhv7tsT8odoC9&amp;start=318",
+              },
+              {
+                video_id: "1-1-3-2",
+                video_title: "مس MS",
+                video_link:
+                  "https://www.youtube.com/embed/Dh1KgZEFaEI?si=QMb0MvYJCRXyJyBR",
               },
             ],
           },
@@ -83,8 +92,9 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "1-2-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مس MS",
+                video_link:
+                  "https://www.youtube.com/embed/beWTJpn3iLs?si=1vfKhbdwDefeosAS",
               },
             ],
           },
@@ -107,8 +117,9 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "1-3-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "احمد توفيق مراد",
+                video_link:
+                  "https://www.youtube.com/embed/DAM919goMf8?si=zRaSJrRxNhmprbYc",
               },
             ],
           },
@@ -119,8 +130,9 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "1-3-2-1",
-                video_title: "",
-                video_link: "",
+                video_title: "ميس ماهيتاب",
+                video_link:
+                  "https://www.youtube.com/embed/0Z6Z8LH23FA?si=mBUOMTe0UivAq1V3",
               },
             ],
           },
@@ -131,8 +143,9 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "1-3-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "ميس ماهيتاب",
+                video_link:
+                  "https://www.youtube.com/embed/CZ5oQm0IjLs?si=kYlZvt1mOBeTdnBX",
               },
             ],
           },
@@ -153,8 +166,9 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "1-4-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "احمد توفيق مراد",
+                video_link:
+                  "https://www.youtube.com/embed/Wx4gZNmF_CM?si=hdlccHZzxEcuNt8A",
               },
             ],
           },
@@ -163,9 +177,8 @@ var g3_t1_islamic_lessons = [
       //الموضوع 5
       //عبادات
       //الدروس
-      //1 الطهارة و الوضوء
-      //2 فرائض الوضوء - سنن الوضوء
-      //3 فضل الوضوء
+      //1 الطهارة و الوضوء , فرائض الوضوء - سنن الوضوء
+      //2 فضل الوضوء
       {
         chapter_id: "1-5",
         chapter_name: "عبادات",
@@ -173,36 +186,38 @@ var g3_t1_islamic_lessons = [
           //الدرس 1
           {
             lesson_id: "1-5-1",
-            lesson_name: "الطهارة و الوضوء",
+            lesson_name: "الطهارة و الوضوء , فرائض الوضوء - سنن الوضوء",
             videos: [
               {
                 video_id: "1-5-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "ميس ماهيتاب",
+                video_link:
+                  "https://www.youtube.com/embed/eynkdO7SLcU?si=QmkEDO5Q6W05u5b7",
+              },
+              {
+                video_id: "1-5-1-2",
+                video_title: "احمد توفيق مراد",
+                video_link:
+                  "https://www.youtube.com/embed/c4tUsNTCdng?si=MNHWPrHK6ZDA2G4F",
               },
             ],
           },
           //الدرس 2
           {
             lesson_id: "1-5-2",
-            lesson_name: "فرائض الوضوء - سنن الوضوء",
-            videos: [
-              {
-                video_id: "1-5-2-1",
-                video_title: "",
-                video_link: "",
-              },
-            ],
-          },
-          //الدرس 3
-          {
-            lesson_id: "1-5-3",
             lesson_name: "فضل الوضوء",
             videos: [
               {
-                video_id: "1-5-3-1",
-                video_title: "",
-                video_link: "",
+                video_id: "1-5-2-1",
+                video_title: "ميس ماهيتاب",
+                video_link:
+                  "https://www.youtube.com/embed/G60CV4Z7cMU?si=Hz6Lld_vEeBzwNRa",
+              },
+              {
+                video_id: "1-5-2-2",
+                video_title: "احمد توفيق مراد",
+                video_link:
+                  "https://www.youtube.com/embed/eVnOwMPlF9s?si=XTNV8UlnTt0N5X4v",
               },
             ],
           },
@@ -223,8 +238,15 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "1-6-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "ميس ماهيتاب",
+                video_link:
+                  "https://www.youtube.com/embed/_W6kvXN1X6k?si=1qPM5jJGiVsE7qgO",
+              },
+              {
+                video_id: "1-6-1-2",
+                video_title: "احمد توفيق مراد",
+                video_link:
+                  "https://www.youtube.com/embed/-O9L-qctBTM?si=at4d1fgMJwSXgTwW",
               },
             ],
           },
@@ -255,8 +277,13 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "2-1-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مس ماهيتاب",
+                video_link: "https://www.youtube.com/embed/EiXmevslX3g?si=W_NO_1msWyFif56o",
+              },
+              {
+                video_id: "2-1-1-1",
+                video_title: "احمد توفيق مراد",
+                video_link: "https://www.youtube.com/embed/fIYaHv9JG7Y?si=p7kAFb1oxoD2t-hV",
               },
             ],
           },
@@ -267,8 +294,13 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "2-1-2-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مس ماهيتاب",
+                video_link: "https://www.youtube.com/embed/u3g8PbVK2lw?si=65hUJFlOh1F4BnZ4",
+              },
+              {
+                video_id: "2-1-2-2",
+                video_title: "احمد توفيق مراد",
+                video_link: "https://www.youtube.com/embed/fTmp5no0pBo?si=UNP9GHtGGrRAdvVA",
               },
             ],
           },
@@ -279,8 +311,13 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "2-1-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مس ماهيتاب",
+                video_link: "https://www.youtube.com/embed/qDeajbUHDjk?si=aYwSa_p37F2TK2fY",
+              },
+              {
+                video_id: "2-1-3-2",
+                video_title: "احمد توفيق مراد",
+                video_link: "https://www.youtube.com/embed/ySQjt0FogJM?si=v365KwZ3FBGD_4xo",
               },
             ],
           },
@@ -289,7 +326,7 @@ var g3_t1_islamic_lessons = [
       //الموضوع 2
       //اخلاق و آداب
       //الدروس
-      //1 الغلام المعلم
+      //1 الغلام المعلم عبدالله بن مسعود
       {
         chapter_id: "2-2",
         chapter_name: "اخلاق و آداب",
@@ -297,10 +334,15 @@ var g3_t1_islamic_lessons = [
           //الدرس 1
           {
             lesson_id: "2-2-1",
-            lesson_name: "الغلام المعلم",
+            lesson_name: "الغلام المعلم عبدالله بن مسعود",
             videos: [
               {
                 video_id: "2-2-1-1",
+                video_title: "احمد توفيق مراد",
+                video_link: "https://www.youtube.com/embed/2sZkObbqw6k?si=SoOKtFrPnDkC9ufg",
+              },
+              {
+                video_id: "2-2-1-2",
                 video_title: "",
                 video_link: "",
               },
@@ -320,24 +362,24 @@ var g3_t1_islamic_lessons = [
           //الدرس 1
           {
             lesson_id: "2-3-1",
-            lesson_name: "يونس - علية السلام1",
+            lesson_name: "يونس - علية السلام الجزء 1",
             videos: [
               {
                 video_id: "2-3-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "احمد توفيق مراد",
+                video_link: "https://www.youtube.com/embed/CIJqAAlnoeE?si=Bc-Gfj58o79X3dW0",
               },
             ],
           },
           //الدرس 2
           {
             lesson_id: "2-3-2",
-            lesson_name: "يونس - علية السلام2",
+            lesson_name: "يونس - علية السلام الجزء 2",
             videos: [
               {
                 video_id: "2-3-2-1",
-                video_title: "",
-                video_link: "",
+                video_title: "احمد توفيق مراد",
+                video_link: "https://www.youtube.com/embed/zkvQuK3vxh0?si=jNTiJplem4Ac4eoX",
               },
             ],
           },
@@ -348,8 +390,8 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "2-3-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "احمد توفيق مراد",
+                video_link: "https://www.youtube.com/embed/thv6zg_-Oqc?si=t1lczGGr3-FeD7Xp",
               },
             ],
           },
@@ -370,8 +412,8 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "2-4-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "احمد توفيق مراد",
+                video_link: "https://www.youtube.com/embed/Eei37w230FQ?si=pHhB0YnzTtov2WHH",
               },
             ],
           },
@@ -394,8 +436,8 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "2-5-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "احمد توفيق مراد",
+                video_link: "https://www.youtube.com/embed/QXhRDd4bdiA?si=wyYBd-cJPj1nJHdG",
               },
             ],
           },
@@ -406,8 +448,8 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "2-5-2-1",
-                video_title: "",
-                video_link: "",
+                video_title: "احمد توفيق مراد",
+                video_link: "https://www.youtube.com/embed/xgbg-DlB_mM?si=W5CSpmCekeXZHjvT",
               },
             ],
           },
@@ -418,8 +460,8 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "2-5-3-1",
-                video_title: "",
-                video_link: "",
+                video_title: "احمد توفيق مراد",
+                video_link: "https://www.youtube.com/embed/0CPXa9uEYzM?si=bfvbI7NiiBeQlG7g",
               },
             ],
           },
@@ -440,8 +482,8 @@ var g3_t1_islamic_lessons = [
             videos: [
               {
                 video_id: "2-6-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "احمد توفيق مراد",
+                video_link: "https://www.youtube.com/embed/bwrNNHPdB4k?si=wJIsLOZM2ShSqqAi",
               },
             ],
           },

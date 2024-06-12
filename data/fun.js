@@ -51,8 +51,8 @@ function draw_lessons(lessons_list, container_id) {
       <table  class="lessons-table striped right-align" >
       <thead >
       <tr >
-        <th class="right-align">الدرس</th>
-        <th class="right-align">فيديوهات</th>
+        <th class="right-align col s8 m8 l8">الدرس</th>
+        <th class="right-align col s8 m8 l8">فيديوهات</th>
       </tr>
       </thead>
       <tbody id="chapter-${chapter.chapter_id}">
@@ -65,8 +65,8 @@ function draw_lessons(lessons_list, container_id) {
       chapter.lessons.forEach((lesson) => {
         document.getElementById(`chapter-${chapter.chapter_id}`).innerHTML += `
         <tr>
-        <td class="right-align">${lesson.lesson_name}</td>
-        <td class="right-align">
+        <td class="right-align col s8 m8 l8">${lesson.lesson_name}</td>
+        <td class="right-align col s8 m8 l8">
         <ul class="lesson-list" id="lesson-${lesson.lesson_id}"> 
         </ul>
         </td>
