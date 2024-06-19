@@ -12,7 +12,7 @@ function draw_sub_books_list(item) {
   <div  class="col l2 m3 s6 center ">
   <div class="card hoverable">
       <div class="card-image waves-effect waves-block waves-light">
-          <img data-parent2="${item.link}" class="activator book-card" src="../img/IMG1.png">
+          <img data-parent2="${item.link}" class="activator book-card" src="pic1.png">
       </div>
       <div class="book-card-title">
           <a href="${item.link}" target="_blank" class="card-title activator grey-text text-darken-4 center">${item.title}</a>
