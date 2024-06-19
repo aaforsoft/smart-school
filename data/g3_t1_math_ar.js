@@ -632,6 +632,12 @@ var g3_t1_math_ar_lessons = [
                 video_link:
                   "https://www.youtube.com/embed/XRmtV4BZAlk?si=7wkEdq5g5ir1CjN9",
               },
+              {
+                video_id: "1-5-5-3",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/0dPevbNx8XU?si=LcY-UQTPp9Jmlr2T",
+              },
             ],
           },
           //الدرس 6
@@ -650,6 +656,12 @@ var g3_t1_math_ar_lessons = [
                 video_title: "مستر السيد ابراهيم",
                 video_link:
                   "https://www.youtube.com/embed/-mVIphNfHMI?si=wm72OX7hDjpJYveY",
+              },
+              {
+                video_id: "1-5-6-3",
+                video_title: "مستر محمد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/aBR1buflT5c?si=lNQmKexIfTR0TDcx",
               },
             ],
           },
@@ -700,6 +712,12 @@ var g3_t1_math_ar_lessons = [
                 video_link:
                   "https://www.youtube.com/embed/yLt6CYZ9ncY?si=54VArQ7U104uLpb4",
               },
+              {
+                video_id: "1-6-2-2",
+                video_title: "مستر السيد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/xEmESu9bPfY?si=DMFMEyAugWNHgiTz",
+              },
             ],
           },
           //الدرس 3
@@ -712,6 +730,12 @@ var g3_t1_math_ar_lessons = [
                 video_title: "عبير عباس",
                 video_link:
                   "https://www.youtube.com/embed/XYXE107v7zo?si=uHd2kqwl8EOdiZjl",
+              },
+              {
+                video_id: "1-6-3-2",
+                video_title: "مستر السيد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/ruPMddXbEjg?si=2A445cT6_NZQig5r",
               },
             ],
           },
@@ -726,6 +750,12 @@ var g3_t1_math_ar_lessons = [
                 video_link:
                   "https://www.youtube.com/embed/Ads54fWTzLw?si=zLwPIcRnyb3K5gta",
               },
+              {
+                video_id: "1-6-4-2",
+                video_title: "مستر السيد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/vsSN4WFz99U?si=phxZn9IcP0dl_0KV",
+              },
             ],
           },
           //الدرس 5
@@ -738,6 +768,12 @@ var g3_t1_math_ar_lessons = [
                 video_title: "عبير عباس",
                 video_link:
                   "https://www.youtube.com/embed/3sNRpGZtlJQ?si=Z2E7uR2OVfqd-hC-",
+              },
+              {
+                video_id: "1-6-5-2",
+                video_title: "مستر السيد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/0FuTeUn-RUg?si=TsEhrOa_b5y1t3b5",
               },
             ],
           },
@@ -752,6 +788,12 @@ var g3_t1_math_ar_lessons = [
                 video_link:
                   "https://www.youtube.com/embed/-U22XoUTgas?si=kVmPWeqedR8VTfYP",
               },
+              {
+                video_id: "1-6-6-2",
+                video_title: "مستر السيد ابراهيم",
+                video_link:
+                  "https://www.youtube.com/embed/8BNOBcagHEc?si=Et6fWXp-gW4QiM_7",
+              },
             ],
           },
           //الدرس 7
@@ -761,8 +803,8 @@ var g3_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-6-7-1",
-                video_title: "",
-                video_link: "",
+                video_title: "مستر السيد ابراهيم",
+                video_link: "https://www.youtube.com/embed/rBFZc9joL6w?si=PP23FMrgLxUVz0m0",
               },
             ],
           },
@@ -776,6 +818,12 @@ var g3_t1_math_ar_lessons = [
                 video_title: "عبير عباس",
                 video_link:
                   "https://www.youtube.com/embed/NCzbZjitJR4?si=Vdl3nnQHcivJ18KK",
+              },
+              {
+                video_id: "1-6-8-2",
+                video_title: "نجلاء زهران",
+                video_link:
+                  "https://www.youtube.com/embed/G5Biui5ceMk?si=mgWnrTB9ncg_4GoJ",
               },
             ],
           },
