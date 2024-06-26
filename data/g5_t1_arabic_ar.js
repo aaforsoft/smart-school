@@ -40,6 +40,17 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-1-1",
+                video_title: "ذاكرلي عربي",
+                video_link:
+                  "https://www.youtube.com/embed/4ZLA3sRHF8c?si=gEyDgUZHdiJ82iKG",
+              },
+              {
+                video_id: "1-1-1-2",
+                video_title: "نتعلم بالراحة",
+                video_link: "https://www.youtube.com/embed/ysuDVbPuZbw?si=jRf_w2SxpSCxFHIq",
+              },
+              {
+                video_id: "1-1-1-3",
                 video_title: "",
                 video_link: "",
               },
@@ -52,6 +63,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-2-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/1VvnGYNOiGI?si=CXnU5tSMMteBrYAh",
+              },
+              {
+                video_id: "1-1-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -64,6 +80,17 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-3-1",
+                video_title: "ذاكرلي عربي",
+                video_link:
+                  "https://www.youtube.com/embed/JchB-0ovOEw?si=FlK79Kw6I0AjWk1P",
+              },
+              {
+                video_id: "1-1-3-2",
+                video_title: "نتعلم بالراحة",
+                video_link: "https://www.youtube.com/embed/AaMtwPJu6JE?si=GvNU5YNJGvVZ-bpy",
+              },
+              {
+                video_id: "1-1-3-3",
                 video_title: "",
                 video_link: "",
               },
@@ -76,6 +103,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-4-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/yAcx2kLr1Jo?si=aE7I1EWsVxZnAI0C",
+              },
+              {
+                video_id: "1-1-4-2",
                 video_title: "",
                 video_link: "",
               },
@@ -88,6 +120,22 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-5-1",
+                video_title: "ذاكرلي عربي",
+                video_link:
+                  "https://www.youtube.com/embed/PLkTr81xVb0?si=_9siZ7uAMzmB0Ph-",
+              },
+              {
+                video_id: "1-1-5-2",
+                video_title: "نتعلم بالراحة",
+                video_link: "https://www.youtube.com/embed/CUyvEp15GtQ?si=aVOsFYkddZg2bD2y",
+              },
+              {
+                video_id: "1-1-5-3",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/VZyXYbig4cs?si=a3psFsNIq2XtEQOl",
+              },
+              {
+                video_id: "1-1-5-4",
                 video_title: "",
                 video_link: "",
               },
@@ -100,6 +148,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-6-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/LXAn9uUvses?si=wl8k4vT2H88T3uik",
+              },
+              {
+                video_id: "1-1-6-2",
                 video_title: "",
                 video_link: "",
               },
@@ -112,6 +165,21 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-7-1",
+                video_title: "ذاكرلي عربي",
+                video_link: "https://www.youtube.com/embed/ssAHcJ_0P4I?si=NTftYyv3lupjjjZ1",
+              },
+              {
+                video_id: "1-1-7-2",
+                video_title: "نتعلم بالراحة",
+                video_link: "https://www.youtube.com/embed/XBncsw_gE4c?si=dBf1ZtDcJLWlQbdU",
+              },
+              {
+                video_id: "1-1-7-3",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/SwkFGYIWcF8?si=izlZALxT1NW9kMh3",
+              },
+              {
+                video_id: "1-1-7-4",
                 video_title: "",
                 video_link: "",
               },
@@ -139,6 +207,21 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-1-1",
+                video_title: "ذاكرلي عربي",
+                video_link: "https://www.youtube.com/embed/3WOKEHtz1Ks?si=iYhZS4L_t0VSQwRD",
+              },
+              {
+                video_id: "1-2-1-2",
+                video_title: "نتعلم بالراحة",
+                video_link: "https://www.youtube.com/embed/WQ5jRM9Zj5k?si=aN2oVhpV33nBxZ6a",
+              },
+              {
+                video_id: "1-2-1-3",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/1sF21XDPpQs?si=09VU3jNUDuMOZEZT",
+              },
+              {
+                video_id: "1-2-1-4",
                 video_title: "",
                 video_link: "",
               },
@@ -151,6 +234,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-2-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/t77iQEOkpCU?si=0cxaHg-rKuJfAvVY",
+              },
+              {
+                video_id: "1-2-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -163,6 +251,16 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-3-1",
+                video_title: "نتعلم بالراحة",
+                video_link: "https://www.youtube.com/embed/HZZkooxrtI4?si=rF74cmuOKLYBPBKU",
+              },
+              {
+                video_id: "1-2-3-2",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/fuQ6xhjNMRM?si=dKvcfFXlFzeagSoq",
+              },
+              {
+                video_id: "1-2-3-3",
                 video_title: "",
                 video_link: "",
               },
@@ -175,8 +273,8 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-4-1",
-                video_title: "",
-                video_link: "",
+                video_title: "ذاكرلي عربي",
+                video_link: "https://www.youtube.com/embed/PXmppDI-J-0?si=HsATQBP80jb05uLa",
               },
             ],
           },
@@ -187,6 +285,16 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-5-1",
+                video_title: "نتعلم بالراحة",
+                video_link: "https://www.youtube.com/embed/pF7rFFYiW8o?si=M9HADr2KZL9g2_Oy",
+              },
+              {
+                video_id: "1-2-5-2",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/dCx4YVfgYVI?si=eGTlDyUbyEbITL2i",
+              },
+              {
+                video_id: "1-2-5-3",
                 video_title: "",
                 video_link: "",
               },
@@ -199,6 +307,16 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-6-1",
+                video_title: "ذاكرلي عربي",
+                video_link: "https://www.youtube.com/embed/Bt85LUKF2Xw?si=-XCYWO3ITWwQidx4",
+              },
+              {
+                video_id: "1-2-6-2",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/P7pIjBGOZ0g?si=gO70zB6E4rr0YHRw",
+              },
+              {
+                video_id: "1-2-6-3",
                 video_title: "",
                 video_link: "",
               },
@@ -211,6 +329,16 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-7-1",
+                video_title: "نتعلم بالراحة",
+                video_link: "https://www.youtube.com/embed/Ljcx0lkAc_U?si=ZadF-dMeFEDIpjlR",
+              },
+              {
+                video_id: "1-2-7-2",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/77tymdT-PoM?si=QX57y0zmyk6pZqtY",
+              },
+              {
+                video_id: "1-2-7-3",
                 video_title: "",
                 video_link: "",
               },
@@ -237,23 +365,33 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-3-1-1",
+                video_title: "نتعلم بالراحة",
+                video_link: "https://www.youtube.com/embed/4r-O6tfRil0?si=15CzWf0dyVPgvZRP",
+              },
+              {
+                video_id: "1-3-1-2",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/M2gs_oG9GNY?si=EmcvAriLH-RT7HM_",
+              },
+              {
+                video_id: "1-3-1-3",
                 video_title: "",
                 video_link: "",
               },
             ],
           },
           //الدرس 2
-          {
-            lesson_id: "1-3-2",
-            lesson_name: "لاحظ واكتشف أهمية ضبط الكلمات",
-            videos: [
-              {
-                video_id: "1-3-2-1",
-                video_title: "",
-                video_link: "",
-              },
-            ],
-          },
+          // {
+          //   lesson_id: "1-3-2",
+          //   lesson_name: "لاحظ واكتشف أهمية ضبط الكلمات",
+          //   videos: [
+          //     {
+          //       video_id: "1-3-2-1",
+          //       video_title: "",
+          //       video_link: "",
+          //     },
+          //   ],
+          // },
           //الدرس 3
           {
             lesson_id: "1-3-3",
@@ -261,6 +399,16 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-3-3-1",
+                video_title: "ياسمين كمال",
+                video_link: "https://www.youtube.com/embed/tsIS3_rIZhc?si=BxdeNFzv0d_L5JXu",
+              },
+              {
+                video_id: "1-3-3-2",
+                video_title: "مصطفي الرشيدي",
+                video_link: "https://www.youtube.com/embed/dcIo2_mHZF0?si=Es0A4LcYRfnYQzC-",
+              },
+              {
+                video_id: "1-3-3-3",
                 video_title: "",
                 video_link: "",
               },
@@ -273,6 +421,16 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-3-4-1",
+                video_title: "نتعلم بالراحة",
+                video_link: "https://www.youtube.com/embed/VHr68ezw_A4?si=pdejKqJkKL17P7_l",
+              },
+              {
+                video_id: "1-3-4-2",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/srNuE0hZlm0?si=_2MTCeFOH97K6gaK",
+              },
+              {
+                video_id: "1-3-4-3",
                 video_title: "",
                 video_link: "",
               },
@@ -285,6 +443,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-3-5-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/KifKomXlAIY?si=NcfLyMRfH-G3cMtn",
+              },
+              {
+                video_id: "1-3-5-2",
                 video_title: "",
                 video_link: "",
               },
@@ -297,6 +460,16 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "1-3-6-1",
+                video_title: "اشرحلي شكرا",
+                video_link: "https://www.youtube.com/embed/EjxSVXGsZ-c?si=4c03o25bnwDy2JwR",
+              },
+              {
+                video_id: "1-3-6-2",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/Q2jC_Mw2dgI?si=f445L_LkGYa6sRPF",
+              },
+              {
+                video_id: "1-3-6-3",
                 video_title: "",
                 video_link: "",
               },
@@ -332,6 +505,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-1-1-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/QG-uR_MQn9M?si=jjGllys6WAF8Gcmd",
+              },
+              {
+                video_id: "2-1-1-2",
                 video_title: "",
                 video_link: "",
               },
@@ -344,6 +522,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-1-2-1",
+                video_title: "ياسمين كمال",
+                video_link: "https://www.youtube.com/embed/_DB7gFlhJZA?si=ls8YnKgHPxReTmLZ",
+              },
+              {
+                video_id: "2-1-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -356,6 +539,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-1-3-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/92o6yHt2Tug?si=t4Qd5rVzV-xFD-Bh",
+              },
+              {
+                video_id: "2-1-3-2",
                 video_title: "",
                 video_link: "",
               },
@@ -368,6 +556,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-1-4-1",
+                video_title: "ذاكرلي عربي",
+                video_link: "https://www.youtube.com/embed/dS0CEkOH1QU?si=XS2hpkLhcehD9kFJ",
+              },
+              {
+                video_id: "2-1-4-2",
                 video_title: "",
                 video_link: "",
               },
@@ -380,6 +573,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-1-5-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/NR1dPgDg8KA?si=d6t0xCsK5oeztC7E",
+              },
+              {
+                video_id: "2-1-5-2",
                 video_title: "",
                 video_link: "",
               },
@@ -392,6 +590,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-1-6-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/HkudebVKIDY?si=wy0oT7RFf5vjAK35",
+              },
+              {
+                video_id: "2-1-6-2",
                 video_title: "",
                 video_link: "",
               },
@@ -404,6 +607,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-1-7-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/tpANR-MDntg?si=icYSjC3lUj1oIMM7",
+              },
+              {
+                video_id: "2-1-7-2",
                 video_title: "",
                 video_link: "",
               },
@@ -431,6 +639,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-1-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/GKnSqhIeUMk?si=VBK1gGVN7hX8vvN6",
+              },
+              {
+                video_id: "2-2-1-2",
                 video_title: "",
                 video_link: "",
               },
@@ -443,6 +656,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-2-1",
+                video_title: "احمد محمد عبدالجواد",
+                video_link: "https://www.youtube.com/embed/wjNhdjhOn04?si=-T9m6ZmfQsKUGpFJ",
+              },
+              {
+                video_id: "2-2-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -455,6 +673,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-3-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/NhfB2NYlOak?si=ZOoU36BRO-JaS_K5",
+              },
+              {
+                video_id: "2-2-3-2",
                 video_title: "",
                 video_link: "",
               },
@@ -468,6 +691,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-4-1",
+                video_title: "احمد محمد عبدالجواد",
+                video_link: "https://www.youtube.com/embed/uxbEqtg_ShE?si=8EQjtIF4RiZTqNjC",
+              },
+              {
+                video_id: "2-2-4-2",
                 video_title: "",
                 video_link: "",
               },
@@ -480,6 +708,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-5-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/DcuU5KFPPBA?si=xiEngsxL5RlnRz-T",
+              },
+              {
+                video_id: "2-2-5-2",
                 video_title: "",
                 video_link: "",
               },
@@ -493,6 +726,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-6-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/sR2Iyky8fv0?si=vQCqjFW0vt0WAvhd",
+              },
+              {
+                video_id: "2-2-6-2",
                 video_title: "",
                 video_link: "",
               },
@@ -505,6 +743,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-7-1",
+                video_title: "حسام ابو انس",
+                video_link: "https://www.youtube.com/embed/vFjkDDnNHjo?si=uKea_kaZcnFEwQQk",
+              },
+              {
+                video_id: "2-2-7-2",
                 video_title: "",
                 video_link: "",
               },
@@ -519,8 +762,7 @@ var g5_t1_arabic_ar_lessons = [
       //3 النص المعلوماتي (طعامهم يميزهم)
       //4 لاحظ واكتشف (مراجعة عامة)
       //5 التعبير الكتابي كتابة مقالة رأي
-      //6 اختبار الموضوع الثالث
-      //7 معجمي الصغير
+      //6 معجمي الصغير
       {
         chapter_id: "2-3",
         chapter_name: "الموضوع الثالث : عاداتهم تميزهم",
@@ -532,6 +774,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-3-1-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/F_4U5jIxrWI?si=Hb-pz91xcLa_43dX",
+              },
+              {
+                video_id: "2-3-1-2",
                 video_title: "",
                 video_link: "",
               },
@@ -544,6 +791,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-3-2-1",
+                video_title: "الاستاذ / مصطفي عبدالعاطي",
+                video_link: "https://www.youtube.com/embed/fk9emGTrm-Y?si=pCJMPHi9PH264CPZ",
+              },
+              {
+                video_id: "2-3-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -556,6 +808,11 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-3-3-1",
+                video_title: "احمد محمد عبدالجواد",
+                video_link: "https://www.youtube.com/embed/BO_Nfk9UIeY?si=Yv1YdWRIfrRpVoXW",
+              },
+              {
+                video_id: "2-3-3-2",
                 video_title: "",
                 video_link: "",
               },
@@ -580,26 +837,20 @@ var g5_t1_arabic_ar_lessons = [
             videos: [
               {
                 video_id: "2-3-5-1",
-                video_title: "",
-                video_link: "",
+                video_title: "احمد محمد عبدالجواد",
+                video_link: "https://www.youtube.com/embed/bsIl2-7WDPk?si=o6OMvYkEyoehFoPZ",
               },
-            ],
-          },
-          //الدرس 6
-          {
-            lesson_id: "2-3-6",
-            lesson_name: "اختبار الموضوع الثالث",
-            videos: [
               {
-                video_id: "2-3-6-1",
+                video_id: "2-3-5-2",
                 video_title: "",
                 video_link: "",
               },
             ],
           },
+
           //الدرس 7
           {
-            lesson_id: "2-3-7",
+            lesson_id: "2-3-6",
             lesson_name: "معجمي الصغير",
             videos: [
               {
