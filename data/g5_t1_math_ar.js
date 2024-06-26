@@ -38,6 +38,21 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-1-1",
+                video_title: "محمد ابراهيم- تأسيس",
+                video_link: "https://www.youtube.com/embed/PK5lK3oGoF4?si=hW1XrEi4yt0QsDsi",
+              },
+              {
+                video_id: "1-1-1-2",
+                video_title: "محمد ابراهيم-2024",
+                video_link: "https://www.youtube.com/embed/LMEnl6yP8SM?si=l5-RXB_om_-s1NYW",
+              },
+              {
+                video_id: "1-1-1-3",
+                video_title: "محمد ابراهيم-2025",
+                video_link: "https://www.youtube.com/embed/JEeSW8QBlbY?si=9yVSLeBdcW-seUKB",
+              },
+              {
+                video_id: "1-1-1-4",
                 video_title: "",
                 video_link: "",
               },
@@ -51,6 +66,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-2-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/qRzob0VkVnQ?si=sZICTJeC5LPXKKVv",
+              },
+              {
+                video_id: "1-1-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -63,6 +83,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-3-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/99p6YRRof0c?si=t13k7K9w5JkMKzZt",
+              },
+              {
+                video_id: "1-1-3-2",
                 video_title: "",
                 video_link: "",
               },
@@ -75,6 +100,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-4-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/1CJYtef1_XE?si=VHmbD5VSb5zzWZDF",
+              },
+              {
+                video_id: "1-1-4-2",
                 video_title: "",
                 video_link: "",
               },
@@ -100,6 +130,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-5-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/Eu5aGvu8rs4?si=RlyHM-yMrWMZEhm0",
+              },
+              {
+                video_id: "1-2-5-2",
                 video_title: "",
                 video_link: "",
               },
@@ -113,6 +148,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-6-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/AD1ig22IsOc?si=VyTTT4_OngZB_EHi",
+              },
+              {
+                video_id: "1-2-6-2",
                 video_title: "",
                 video_link: "",
               },
@@ -125,6 +165,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-7-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/pBoODScGLSs?si=bWH4Q5GQtnxW0ILZ",
+              },
+              {
+                video_id: "1-2-7-2",
                 video_title: "",
                 video_link: "",
               },
@@ -156,6 +201,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "2-1-1-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/8UzX6QJLt-k?si=xbNb5ge-Dr3HG49y",
+              },
+              {
+                video_id: "2-1-1-2",
                 video_title: "",
                 video_link: "",
               },
@@ -169,6 +219,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "2-1-2-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/cAlbRROKB4Y?si=fQhpBSsLHSBGyXso",
+              },
+              {
+                video_id: "2-1-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -194,6 +249,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-3-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/BOtqgfQhnCA?si=A3_svU8OEs5l8lLa",
+              },
+              {
+                video_id: "2-2-3-2",
                 video_title: "",
                 video_link: "",
               },
@@ -207,6 +267,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-4-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/o1KS08dMf7M?si=PUaeF_6S1ypiq6eq",
+              },
+              {
+                video_id: "2-2-4-2",
                 video_title: "",
                 video_link: "",
               },
@@ -219,6 +284,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-5-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/BtDuCjcN-ds?si=1RQrxpFU2FOKsWXD",
+              },
+              {
+                video_id: "2-2-5-2",
                 video_title: "",
                 video_link: "",
               },
@@ -249,6 +319,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "3-1-1-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/RUP0kXwbtPk?si=Q3b4jmnnrsZfIOvb",
+              },
+              {
+                video_id: "3-1-1-2",
                 video_title: "",
                 video_link: "",
               },
@@ -274,6 +349,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "3-2-1-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/1xEkxFzUso0?si=zUQgeeMpR--ZC15Q",
+              },
+              {
+                video_id: "3-2-1-2",
                 video_title: "",
                 video_link: "",
               },
@@ -286,6 +366,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "3-2-2-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/Ue1-Cj2EUx4?si=wisDfX2dBIbr4Jv4",
+              },
+              {
+                video_id: "3-2-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -316,6 +401,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "4-1-1-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/9aCLvWOhfKA?si=7f6eCemrbxisLmyg",
+              },
+              {
+                video_id: "4-1-1-2",
                 video_title: "",
                 video_link: "",
               },
@@ -339,6 +429,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "4-2-2-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/4-P7rSvtR-I?si=71SckUKKbo6SDe2i",
+              },
+              {
+                video_id: "4-2-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -351,6 +446,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "4-2-3-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/Da-gPpHdtQk?si=f_L2_vzVZEjs-lwF",
+              },
+              {
+                video_id: "4-2-3-2",
                 video_title: "",
                 video_link: "",
               },
@@ -383,6 +483,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "5-1-1-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/IaNlrAFH59Y?si=fDVlgJ7IJR3P8o0h",
+              },
+              {
+                video_id: "5-1-1-2",
                 video_title: "",
                 video_link: "",
               },
@@ -395,6 +500,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "5-1-2-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/7U9lJQgqY8k?si=-1_BVkNFxVHd_LHI",
+              },
+              {
+                video_id: "5-1-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -407,6 +517,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "5-1-3-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/lhO_W1ez8F8?si=0Q5nyCVQtmC5ZxM1",
+              },
+              {
+                video_id: "5-1-3-2",
                 video_title: "",
                 video_link: "",
               },
@@ -420,6 +535,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "5-1-4-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/tGEORGODDvU?si=dg6sZJf6V8_MGp7N",
+              },
+              {
+                video_id: "5-1-4-2",
                 video_title: "",
                 video_link: "",
               },
@@ -433,6 +553,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "5-1-5-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/gEe0k2fX1BY?si=vNf13LCUPVB9MRiR",
+              },
+              {
+                video_id: "5-1-5-2",
                 video_title: "",
                 video_link: "",
               },
@@ -458,6 +583,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "5-2-1-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/TAGC2ec-lqQ?si=34CRcfTWuajxwCvN",
+              },
+              {
+                video_id: "5-2-1-2",
                 video_title: "",
                 video_link: "",
               },
@@ -470,6 +600,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "5-2-2-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/PyML_odIwsI?si=X3TkfqNIkOgmWuLT",
+              },
+              {
+                video_id: "5-2-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -482,6 +617,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "5-2-3-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/NzPOWbK0mac?si=CdFQAAc3cHyP8N9R",
+              },
+              {
+                video_id: "5-2-3-2",
                 video_title: "",
                 video_link: "",
               },
@@ -515,6 +655,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "6-1-1-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/CHHE8VZIhhs?si=lt7VWEtIckSjUuK4",
+              },
+              {
+                video_id: "6-1-1-2",
                 video_title: "",
                 video_link: "",
               },
@@ -527,6 +672,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "6-1-2-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/LYA0af8tN9s?si=zXknPRV5S_Z3BS7q",
+              },
+              {
+                video_id: "6-1-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -539,6 +689,11 @@ var g5_t1_math_ar_lessons = [
             videos: [
               {
                 video_id: "6-1-3-1",
+                video_title: "محمد ابراهيم - 2024",
+                video_link: "https://www.youtube.com/embed/cFl7n8vuqaw?si=itD2agkUSywj-2_q",
+              },
+              {
+                video_id: "6-1-3-2",
                 video_title: "",
                 video_link: "",
               },
