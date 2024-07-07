@@ -42,6 +42,17 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-1-1",
+                video_title: "مس قوت القلوب",
+                video_link:
+                  "https://www.youtube.com/embed/WHeMCGVpejc?si=3EUCkzb0rQVpCXiP",
+              },
+              {
+                video_id: "1-1-1-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/BIUM4pqA1PA?si=N-s5rQf88PF_nyAv",
+              },
+              {
+                video_id: "1-1-1-3",
                 video_title: "",
                 video_link: "",
               },
@@ -54,6 +65,16 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-2-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/ksBP9pmY84E?si=IP6rMhfO4xfySq5p",
+              },
+              {
+                video_id: "1-1-2-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/jJCZ9O8otu4?si=RNay48QhQnMoXLSj",
+              },
+              {
+                video_id: "1-1-2-3",
                 video_title: "",
                 video_link: "",
               },
@@ -66,6 +87,16 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-3-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/Vs_Siw6kY7Y?si=TOVE7bK6uaLzuGTW",
+              },
+              {
+                video_id: "1-1-3-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/Gr2Cf5i4_AI?si=RgdtRCZ9V6corK4F",
+              },
+              {
+                video_id: "1-1-3-3",
                 video_title: "",
                 video_link: "",
               },
@@ -78,6 +109,16 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-4-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/i5dCzJPzvnU?si=jfJuk_Qqa4pCbR6j",
+              },
+              {
+                video_id: "1-1-4-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/ynaVdmMD3FA?si=eF4LAAhAw3kromXK",
+              },
+              {
+                video_id: "1-1-4-3",
                 video_title: "",
                 video_link: "",
               },
@@ -90,6 +131,16 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-5-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/Zr2oUUSFhnM?si=bkNZL0KHDozVZTsg",
+              },
+              {
+                video_id: "1-1-5-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/LVy3E1rlClI?si=ZweFnxyKPXzy6i5B",
+              },
+              {
+                video_id: "1-1-5-3",
                 video_title: "",
                 video_link: "",
               },
@@ -102,6 +153,16 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-6-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/nV5fx9X9cO0?si=AipORdXHRki3i9n8",
+              },
+              {
+                video_id: "1-1-6-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/7zJAT5mMNMw?si=uV_fxvJVnPHTAj8R",
+              },
+              {
+                video_id: "1-1-6-3",
                 video_title: "",
                 video_link: "",
               },
@@ -114,6 +175,16 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-7-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/b0xExoewBnY?si=YkCU_tbqMSDljN4K",
+              },
+              {
+                video_id: "1-1-7-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/aDyDhk17ujU?si=axMCP6_FDE9BZ3BM",
+              },
+              {
+                video_id: "1-1-7-3",
                 video_title: "",
                 video_link: "",
               },
@@ -126,6 +197,16 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-8-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/gTbs0LpGvuo?si=3T99mNr8FOFG9fCX",
+              },
+              {
+                video_id: "1-1-8-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/QJFE6qpV4y0?si=Zse5QRTnBY45V9i-",
+              },
+              {
+                video_id: "1-1-8-3",
                 video_title: "",
                 video_link: "",
               },
@@ -138,6 +219,65 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-9-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/5o8vBB4pAIQ?si=ZRr2cc675GfrRBwq",
+              },
+              {
+                video_id: "1-1-9-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/VbjEotXINcc?si=REM-WPWpnVqVYfNK",
+              },
+              {
+                video_id: "1-1-9-3",
+                video_title: "",
+                video_link: "",
+              },
+            ],
+          },
+          //الدرس 10
+          {
+            lesson_id: "1-1-10",
+            lesson_name: "الموضوع العاشر : شخصيات مصرية مؤثرة : الدكتور فاروق الباز",
+            videos: [
+              {
+                video_id: "1-1-9-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/NLD6OIUbs1c?si=GP-x2Zk8TbnMBxip",
+              },
+              {
+                video_id: "1-1-9-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/XTLQIyVI_gw?si=ek0Jry06Ze4sJ5sv",
+              },
+              {
+                video_id: "1-1-9-3",
+                video_title: "",
+                video_link: "",
+              },
+            ],
+          },
+          //الدرس 11  
+          {
+            lesson_id: "1-1-11",
+            lesson_name: "الموضوع الحادي عشر : المستكشف النشط البروفيسور بريان بوما",
+            videos: [
+              {
+                video_id: "1-1-11-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/dhFz5FbR4P0?si=iozjOOl2VHU4O-2n",
+              },
+              {
+                video_id: "1-1-11-2",
+                video_title: "منصات تعليمية الجزء الأول",
+                video_link: "https://www.youtube.com/embed/4TArX1vL634?si=7E38j6N7T2AAwPOG",
+              },
+              {
+                video_id: "1-1-11-3",
+                video_title: "منصات تعليمية الجزء الثاني", 
+                video_link: "https://www.youtube.com/embed/f1g44z1FOys?si=kou5p8ZLOgRZDHue",
+              },
+              {
+                video_id: "1-1-11-4",
                 video_title: "",
                 video_link: "",
               },
@@ -172,6 +312,16 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-1-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/nTdom7sMQnU?si=qkaLbOIEpX7vibi9",
+              },
+              {
+                video_id: "1-2-1-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/IWvWnykvchA?si=LASoixlwwcNLXD3h",
+              },
+              {
+                video_id: "1-2-1-3",
                 video_title: "",
                 video_link: "",
               },
@@ -184,6 +334,16 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-2-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/D8dOvAbvFbQ?si=XX1hJr_p14fX3X1e",
+              },
+              {
+                video_id: "1-2-2-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/_vQITH1FVaQ?si=LEI7lEpiu6X_pcCr",
+              },
+              {
+                video_id: "1-2-2-3",
                 video_title: "",
                 video_link: "",
               },
@@ -196,6 +356,16 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-3-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/wl2WXInygB0?si=dQ4gQtS7gdkzC_hR",
+              },
+              {
+                video_id: "1-2-3-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/U9PVoZ7D2Zs?si=0wQ3PVHb0gjpIswk",
+              },
+              {
+                video_id: "1-2-3-3",
                 video_title: "",
                 video_link: "",
               },
@@ -208,6 +378,16 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-4-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/aPy2MRasVVY?si=3Bhazb6Wway9dIAL",
+              },
+              {
+                video_id: "1-2-4-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/qkVqQa5IFro?si=dAbKh-8vdF2nE3w2",
+              },
+              {
+                video_id: "1-2-4-3",
                 video_title: "",
                 video_link: "",
               },
@@ -220,6 +400,16 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-5-1",
+                video_title: "مس قوت القلوب",
+                video_link: "https://www.youtube.com/embed/VXTyRytveGw?si=v-TVZhVaitzIiTq3",
+              },
+              {
+                video_id: "1-2-5-2",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/fnMVgSVjG-c?si=g4nWYFMDsIdQVrDp",
+              },
+              {
+                video_id: "1-2-5-3",
                 video_title: "",
                 video_link: "",
               },
@@ -232,6 +422,11 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-6-1",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/_x_UV6Cd-xM?si=lFktQbNtDEXmsji3",
+              },
+              {
+                video_id: "1-2-6-2",
                 video_title: "",
                 video_link: "",
               },
@@ -244,6 +439,11 @@ var g5_t1_professional_skills_ar_lessons = [
             videos: [
               {
                 video_id: "1-2-7-1",
+                video_title: "منصات تعليمية",
+                video_link: "https://www.youtube.com/embed/wayACL2fN0w?si=sni7WpPVBqDhPQIY",
+              },
+              {
+                video_id: "1-2-7-2",
                 video_title: "",
                 video_link: "",
               },

@@ -41,8 +41,15 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-1-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عطا زكي شحتو",
+                video_link:
+                  "https://www.youtube.com/embed/yJqJ_PqFu00?si=I0ey6Hg_dIrhj8n_",
+              },
+              {
+                video_id: "1-1-1-2",
+                video_title: "عطا زكي شحتو - اسئلة الدرس",
+                video_link:
+                  "https://www.youtube.com/embed/baih7DMemW0?si=sj0wBpJfOhux4zxD",
               },
             ],
           },
@@ -53,6 +60,24 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-2-1",
+                video_title: "عطا زكي شحتو الجزء الأول",
+                video_link:
+                  "https://www.youtube.com/embed/hRKGQ5Vnqk8?si=OiI7yinWa40SNTQa",
+              },
+              {
+                video_id: "1-1-2-2",
+                video_title: "عطا زكي شحتو الجزء الثاني",
+                video_link:
+                  "https://www.youtube.com/embed/Lcar5PtAsEc?si=G6mYmORozEwTo0wm",
+              },
+              {
+                video_id: "1-1-2-3",
+                video_title: "عطا زكي شحتو - اسئلة الدرس",
+                video_link:
+                  "https://www.youtube.com/embed/WtD2LNiHN14?si=B39g7SWDkocXOZN-",
+              },
+              {
+                video_id: "1-1-2-4",
                 video_title: "",
                 video_link: "",
               },
@@ -65,6 +90,24 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-3-1",
+                video_title: "عطا زكي شحتو الجزء الأول",
+                video_link:
+                  "https://www.youtube.com/embed/k0SlPlw3ndY?si=VYiXrxhK2iontfnI",
+              },
+              {
+                video_id: "1-1-3-2",
+                video_title: "عطا زكي شحتو الجزء الثاني",
+                video_link:
+                  "https://www.youtube.com/embed/hMHEhrApwg8?si=Ok_riWVQcnvbUx0C",
+              },
+              {
+                video_id: "1-1-3-3",
+                video_title: "عطا زكي شحتو - اسئلة الدرس",
+                video_link:
+                  "https://www.youtube.com/embed/JHabDv693Qk?si=hw9XtuB0HYRi4f8q",
+              },
+              {
+                video_id: "1-1-3-4",
                 video_title: "",
                 video_link: "",
               },
@@ -77,8 +120,21 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-4-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عطا زكي شحتو الجزء الأول",
+                video_link:
+                  "https://www.youtube.com/embed/9bVLXbDf-oM?si=wFULCZ-hVZaBhM9c",
+              },
+              {
+                video_id: "1-1-4-2",
+                video_title: "عطا زكي شحتو الجزء الثاني",
+                video_link:
+                  "https://www.youtube.com/embed/0HuBbEVm1RI?si=98phDrCH1sb0UId6",
+              },
+              {
+                video_id: "1-1-4-3",
+                video_title: "عطا زكي شحتو - اسئلة الدرس",
+                video_link:
+                  "https://www.youtube.com/embed/Kb9T9nXnyjY?si=l-B-RPkxN0ARmUr8",
               },
             ],
           },
@@ -90,8 +146,15 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-5-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عطا زكي شحتو",
+                video_link:
+                  "https://www.youtube.com/embed/7gquRq8OFho?si=Ygb5T6QyAp-jnSlg",
+              },
+              {
+                video_id: "1-1-5-2",
+                video_title: "عطا زكي شحتو - اسئلة الدرس",
+                video_link:
+                  "https://www.youtube.com/embed/ejIKTx2R6RY?si=DhtPktLMBP1L-9Ev",
               },
             ],
           },
@@ -102,8 +165,15 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-6-1",
-                video_title: "",
-                video_link: "",
+                video_title: "عطا زكي شحتو",
+                video_link:
+                  "https://www.youtube.com/embed/QNOeZDMyfRU?si=3Q6UvBEgtA-_7WTP",
+              },
+              {
+                video_id: "1-1-6-2",
+                video_title: "عطا زكي شحتو - اسئلة الدرس",
+                video_link:
+                  "https://www.youtube.com/embed/zPJuTftLdhs?si=Q3a4OvbybCn49LOo",
               },
             ],
           },
@@ -115,6 +185,36 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "1-1-7-1",
+                video_title: "الطالب المتفوق",
+                video_link:
+                  "https://www.youtube.com/embed/azffmqgH4Dc?si=QQl1QBOUta1X5WmL",
+              },
+              {
+                video_id: "1-1-7-2",
+                video_title: "غادة عراقي",
+                video_link:
+                  "https://www.youtube.com/embed/BQmWP2peLtU?si=j7L8MCw2Y3tL2OLA",
+              },
+              {
+                video_id: "1-1-7-3",
+                video_title: "",
+                video_link: "",
+              },
+            ],
+          },
+          // مراجعة الوحدة
+          {
+            lesson_id: "1-1-8",
+            lesson_name: "مراجعة الوحدة",
+            videos: [
+              {
+                video_id: "1-1-8-1",
+                video_title: "عطا زكي شحتو",
+                video_link:
+                  "https://www.youtube.com/embed/qlQ90E-uTq8?si=PCmBdpwaVOf8O3te",
+              },
+              {
+                video_id: "1-1-8-2",
                 video_title: "",
                 video_link: "",
               },
@@ -148,6 +248,12 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "2-1-1-1",
+                video_title: "عطا زكي شحتو",
+                video_link:
+                  "https://www.youtube.com/embed/dZSdlCA6Zrc?si=PiiOsXxoPpBZJJ-B",
+              },
+              {
+                video_id: "2-1-1-2",
                 video_title: "",
                 video_link: "",
               },
@@ -160,6 +266,12 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "2-1-2-1",
+                video_title: "عطا زكي شحتو",
+                video_link:
+                  "https://www.youtube.com/embed/d2i6ABNf8xU?si=Wl_6YnPVsoiYikBl",
+              },
+              {
+                video_id: "2-1-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -172,6 +284,18 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "2-1-3-1",
+                video_title: "عطا زكي شحتو",
+                video_link:
+                  "https://www.youtube.com/embed/ZFvtIhxKO0g?si=vC5Ry6o05qY9NKtJ",
+              },
+              {
+                video_id: "2-1-3-2",
+                video_title: "عطا زكي شحتو - اسئلة الدرس",
+                video_link:
+                  "https://www.youtube.com/embed/_VaRnVkvO88?si=aS3vKoKZCaq34JfH",
+              },
+              {
+                video_id: "2-1-3-3",
                 video_title: "",
                 video_link: "",
               },
@@ -184,6 +308,30 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "2-1-4-1",
+                video_title: "عطا زكي شحتو",
+                video_link:
+                  "https://www.youtube.com/embed/0bK-fyWRtNg?si=RoPbJPsZNrkDgTTN",
+              },
+              {
+                video_id: "2-1-4-2",
+                video_title: "",
+                video_link: "",
+              },
+            ],
+          },
+          // مراجعة الوحدة
+          {
+            lesson_id: "2-1-5",
+            lesson_name: "مراجعة الوحدة",
+            videos: [
+              {
+                video_id: "2-1-5-1",
+                video_title: "عطا زكي شحتو",
+                video_link:
+                  "https://www.youtube.com/embed/DhlF25zpvwQ?si=NeYGX-ili-yViAhU",
+              },
+              {
+                video_id: "2-1-5-2",
                 video_title: "",
                 video_link: "",
               },
@@ -210,6 +358,16 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-1-1",
+                video_title: "عطا زكي شحتو الجزء الأول",
+                video_link: "https://www.youtube.com/embed/nHT1RbD3bm8?si=Gbt2Dr9Suu-Lm6v9",
+              },
+              {
+                video_id: "2-2-1-2",
+                video_title: "عطا زكي شحتو الجزء الثاني",
+                video_link: "https://www.youtube.com/embed/CSTCI_BP4QA?si=dAvM8Xp6A6-wbst-",
+              },
+              {
+                video_id: "2-2-1-3",
                 video_title: "",
                 video_link: "",
               },
@@ -222,6 +380,11 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-2-1",
+                video_title: "عطا زكي شحتو",
+                video_link: "https://www.youtube.com/embed/OaWq3aleNhg?si=VKTACsr4F0RcXmfF",
+              },
+              {
+                video_id: "2-2-2-2",
                 video_title: "",
                 video_link: "",
               },
@@ -234,6 +397,11 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-3-1",
+                video_title: "عطا زكي شحتو",
+                video_link: "https://www.youtube.com/embed/bDUxLjWI49A?si=3iSZ5_SKnkE6MXvJ",
+              },
+              {
+                video_id: "2-2-3-2",
                 video_title: "",
                 video_link: "",
               },
@@ -246,6 +414,11 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-4-1",
+                video_title: "عطا زكي شحتو",
+                video_link: "https://www.youtube.com/embed/F0Dn5w3T2z4?si=cw0pQQ4Qtef3RAwM",
+              },
+              {
+                video_id: "2-2-4-2",
                 video_title: "",
                 video_link: "",
               },
@@ -259,6 +432,28 @@ var g5_t1_social_studies_ar_lessons = [
             videos: [
               {
                 video_id: "2-2-5-1",
+                video_title: "كريم السبكي",
+                video_link: "https://www.youtube.com/embed/t0l4JcouSf8?si=goS4q8IvMAviZEDj",
+              },
+              {
+                video_id: "2-2-5-2",
+                video_title: "",
+                video_link: "",
+              },
+            ],
+          },
+          // مراجعة الوحدة
+          {
+            lesson_id: "2-2-6",
+            lesson_name: "مراجعة الوحدة",
+            videos: [
+              {
+                video_id: "2-2-6-1",
+                video_title: "عطا زكي شحتو",
+                video_link: "https://www.youtube.com/embed/DZ4VeeTZOgI?si=WAKfERDkl7NIq4T_",
+              },
+              {
+                video_id: "2-2-6-2",
                 video_title: "",
                 video_link: "",
               },
