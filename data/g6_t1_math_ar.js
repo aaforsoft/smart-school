@@ -1,4 +1,4 @@
-import { draw_sub_books_list, draw_lessons } from "./fun.js";
+import { draw_sub_books_list, draw_lessons , draw_fullvideo_list } from "./fun.js";
 var g6_t1_math_ar_books = [
   {
     title: "سلاح التلميذ - الكتاب كامل",
@@ -13,6 +13,34 @@ g6_t1_math_ar_books.forEach(function (item) {
 
 document.getElementById("g6_t1_math_ar_books").innerHTML +=
   g6_t1_math_ar_books_elements;
+  
+// full-video -----------
+var g6_t1_math_ar_fullvideo = [
+
+  {
+    video_title: "مستر محمد ابراهيم 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=DEySgRTEzS-if5Ak&amp;list=PLr3deliUOGZtCLgpyRbCgGzR0mSOvzWCV",
+  },
+  {
+    video_title: "مستر محمد ابراهيم 2025",
+    video_link: "https://www.youtube.com/embed/videoseries?si=DZSxQNbDysXRVFe0&amp;list=PLYGJU1U6eacN1SaPZodMWEP2M1MzTmxwP",
+  },
+  {
+    video_title: "ميس سلوي حامد 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=c-C8nyCGd35WQzNp&amp;list=PLIGfCOmnXRytFtFbBuhtbwTCInf9vqHJh",
+  },
+
+];
+
+let g6_t1_math_ar_fullvideo_elements = "";
+g6_t1_math_ar_fullvideo.forEach(function (item) {
+  g6_t1_math_ar_fullvideo_elements += draw_fullvideo_list(item);
+});
+
+document.getElementById("g6_t1_math_ar_fullvideo").innerHTML +=
+  g6_t1_math_ar_fullvideo_elements;
+//-------------------
+
 
 var g6_t1_math_ar_lessons = [
   //الوحدة 1
@@ -47,11 +75,7 @@ var g6_t1_math_ar_lessons = [
                 video_title: "محمد ابراهيم 2024",
                 video_link: "https://www.youtube.com/embed/Yz4v5-iKY8g?si=Esp9io9tciBk1nx1",
               },
-              {
-                video_id: "1-1-1-3",
-                video_title: "محمد ابراهيم ليست 2024",
-                video_link: "https://www.youtube.com/embed/videoseries?si=DEySgRTEzS-if5Ak&amp;list=PLr3deliUOGZtCLgpyRbCgGzR0mSOvzWCV",
-              },
+
             ],
           },
           //الدرس 2

@@ -1,4 +1,4 @@
-import { draw_sub_books_list, draw_lessons } from "./fun.js";
+import { draw_sub_books_list, draw_lessons,draw_fullvideo_list } from "./fun.js";
 var g6_t1_islamic_ar_books = [
   {
     title: "سلاح التلميذ - الكتاب كامل",
@@ -14,6 +14,32 @@ g6_t1_islamic_ar_books.forEach(function (item) {
 document.getElementById("g6_t1_islamic_ar_books").innerHTML +=
   g6_t1_islamic_ar_books_elements;
 
+// full-video -----------
+var g6_t1_islamic_ar_fullvideo = [
+
+  {
+    video_title: "حسام ابو انس 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=53_BtP8yry3Njn_T&amp;list=PLvZB_eXVOBDAFUHr9EetCoJ-rEM8ku5w8",
+  },
+  {
+    video_title: "مصطفي عبدة 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=t8LXvLQtjp9FFGgj&amp;list=PLNTk23wqJXf_VSpuFW8Z3jDdQ1p1-8Xqp",
+  },
+  {
+    video_title: "مصطفي عبدة 2025",
+    video_link: "https://www.youtube.com/embed/videoseries?si=dQZ9PRaTuckwk6ib&amp;list=PLNTk23wqJXf86oDliF-SbNCy_CSv_yV6c",
+  },
+
+];
+//-------------------
+let g6_t1_islamic_ar_fullvideo_elements = "";
+g6_t1_islamic_ar_fullvideo.forEach(function (item) {
+  g6_t1_islamic_ar_fullvideo_elements += draw_fullvideo_list(item);
+});
+
+document.getElementById("g6_t1_islamic_ar_fullvideo").innerHTML +=
+  g6_t1_islamic_ar_fullvideo_elements;
+//-------------------
 var g6_t1_islamic_ar_lessons = [
   //المحور 1
   {

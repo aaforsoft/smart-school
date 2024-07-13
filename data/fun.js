@@ -22,6 +22,12 @@ function draw_sub_books_list(item) {
   `;
 }
 
+function draw_fullvideo_list(item){
+  return `
+  <a href="#video" class="collection-item video-link" data-parent="${item.video_link}">${item.video_title}</a>
+  `
+}
+
 // when click on div go to the link in new tab
 document.addEventListener("click", function (e) {
   if (e.target && e.target.classList.contains("book-card")) {
@@ -129,4 +135,4 @@ function draw_video_container(video_link) {
   });
 }
 
-export { draw_sub_list, draw_sub_books_list, draw_lessons };
+export { draw_sub_list, draw_sub_books_list, draw_lessons, draw_fullvideo_list};
