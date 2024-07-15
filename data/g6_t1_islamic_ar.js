@@ -31,7 +31,7 @@ var g6_t1_islamic_ar_fullvideo = [
   },
 
 ];
-//-------------------
+
 let g6_t1_islamic_ar_fullvideo_elements = "";
 g6_t1_islamic_ar_fullvideo.forEach(function (item) {
   g6_t1_islamic_ar_fullvideo_elements += draw_fullvideo_list(item);
@@ -40,6 +40,7 @@ g6_t1_islamic_ar_fullvideo.forEach(function (item) {
 document.getElementById("g6_t1_islamic_ar_fullvideo").innerHTML +=
   g6_t1_islamic_ar_fullvideo_elements;
 //-------------------
+
 var g6_t1_islamic_ar_lessons = [
   //المحور 1
   {
