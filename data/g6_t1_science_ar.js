@@ -25,6 +25,10 @@ var g6_t1_science_ar_fullvideo = [
     video_link: "https://www.youtube.com/embed/videoseries?si=aomv-JDBuDRPR1mN&amp;list=PLYGJU1U6eacMNZ7DFGu9t9XS0uxmqvZu-",
   },
   {
+    video_title: "مستر ابراهيم السيد - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=DIltaw_7m25HyN5a&amp;list=PLdNdsGStBEyCwXfhKytRFI93PxvBuENja",
+  },
+  {
     video_title: " مس اسماء - شرح 2024",
     video_link: "https://www.youtube.com/embed/videoseries?si=fGmg2JGaUwWL07yk&amp;list=PLfwlsr4TlP5g1XIcPpiC-gGnvnLd9PcNo",
   },

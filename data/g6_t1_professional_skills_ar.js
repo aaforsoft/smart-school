@@ -33,7 +33,6 @@ var g6_t1_professional_skills_ar_fullvideo = [
     video_link: "https://www.youtube.com/embed/videoseries?si=1ZtA7DNG87G_-8Vt&amp;list=PLUOeiPA5Mo5eQRDPP17TevRVL2my8mOkA",
   },
 
-
 ];
 
 let g6_t1_professional_skills_ar_fullvideo_elements = "";
