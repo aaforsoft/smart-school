@@ -1,4 +1,4 @@
-import { draw_sub_books_list, draw_lessons } from "./fun.js";
+import { draw_sub_books_list, draw_lessons , draw_fullvideo_list} from "./fun.js";
 var g3_t1_arabic_books = [
   {
     title: "سلاح التلميذ - الكتاب كامل",
@@ -14,6 +14,30 @@ g3_t1_arabic_books.forEach(function (item) {
 document.getElementById("g3_t1_arabic_books").innerHTML +=
   g3_t1_arabic_books_elements;
 
+// full-video -----------
+var g3_t1_arabic_ar_fullvideo = [
+  {
+    video_title: " تعلم مع نانا - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=Ujjvc6selbjW9FP-&amp;list=PLGQ5CTmTF6n7KuD4VKNtG1Ar3h_FHK2hh",
+  },
+  {
+    video_title: " ميس مها سعيد - شرح 2023",
+    video_link: "https://www.youtube.com/embed/videoseries?si=ht9jxS8vIu2je4JD&amp;list=PLYN5fO69EYaulE-pG-WMUcaOTozkv0I9V",
+  },
+  {
+    video_title: " هشرحلك عربي - شرح 2023",
+    video_link: "https://www.youtube.com/embed/videoseries?si=s9EHLC7YQLHHdP8t&amp;list=PLuoT9dmk_3n2WcnPzCgbKzojn-72xydmL",
+  },
+];
+
+let g3_t1_arabic_ar_fullvideo_elements = "";
+g3_t1_arabic_ar_fullvideo.forEach(function (item) {
+  g3_t1_arabic_ar_fullvideo_elements += draw_fullvideo_list(item);
+});
+
+document.getElementById("g3_t1_arabic_ar_fullvideo").innerHTML +=
+  g3_t1_arabic_ar_fullvideo_elements;
+//-------------------
 var g3_t1_arabic_lessons = [
   //المحور 1
   {
@@ -129,7 +153,7 @@ var g3_t1_arabic_lessons = [
                 video_title: "تمثيل القصة : احمد عبدالجواد",
                 video_link:
                   "https://www.youtube.com/embed/uvjHIXvSBjI?si=4Aiv5my3o7iPCwDd",
-              }
+              },
             ],
           },
           //الدرس 8
@@ -459,12 +483,14 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-1-2-1",
                 video_title: "محمد عبدالرازق",
-                video_link: "https://www.youtube.com/embed/Ia5glKuco7o?si=25u5mfmF6z6IllGo",
+                video_link:
+                  "https://www.youtube.com/embed/Ia5glKuco7o?si=25u5mfmF6z6IllGo",
               },
               {
                 video_id: "2-1-2-2",
                 video_title: "مس ايمان",
-                video_link: "https://www.youtube.com/embed/TcGHlbsjjdo?si=ShkDFmf12o-YTHiv",
+                video_link:
+                  "https://www.youtube.com/embed/TcGHlbsjjdo?si=ShkDFmf12o-YTHiv",
               },
             ],
           },
@@ -476,12 +502,14 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-1-3-1",
                 video_title: "مها سعيد",
-                video_link: "https://www.youtube.com/embed/HTJ-iDncdFU?si=4IUC4Ak8gkJAcxVR",
+                video_link:
+                  "https://www.youtube.com/embed/HTJ-iDncdFU?si=4IUC4Ak8gkJAcxVR",
               },
               {
                 video_id: "2-1-3-2",
                 video_title: "تعلم مع نانا",
-                video_link: "https://www.youtube.com/embed/MeDpN6kQDJM?si=Xg-jr02eNb9hZlIv",
+                video_link:
+                  "https://www.youtube.com/embed/MeDpN6kQDJM?si=Xg-jr02eNb9hZlIv",
               },
             ],
           },
@@ -506,12 +534,14 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-1-5-1",
                 video_title: "محمود اشرف",
-                video_link: "https://www.youtube.com/embed/qtVC8cpEIFc?si=PG1d2jNJImtDwzIS",
+                video_link:
+                  "https://www.youtube.com/embed/qtVC8cpEIFc?si=PG1d2jNJImtDwzIS",
               },
               {
                 video_id: "2-1-5-2",
                 video_title: "مها سعيد",
-                video_link: "https://www.youtube.com/embed/9reYqYEw2KE?si=yNV3ecYCY2qlKQhQ",
+                video_link:
+                  "https://www.youtube.com/embed/9reYqYEw2KE?si=yNV3ecYCY2qlKQhQ",
               },
             ],
           },
@@ -536,7 +566,8 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-1-7-1",
                 video_title: "احمد عبدالجواد",
-                video_link: "https://www.youtube.com/embed/igGpsOOkaJI?si=OIwTzD6ERx1u0WtK",
+                video_link:
+                  "https://www.youtube.com/embed/igGpsOOkaJI?si=OIwTzD6ERx1u0WtK",
               },
             ],
           },
@@ -564,12 +595,14 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-2-1-1",
                 video_title: "3d city",
-                video_link: "https://www.youtube.com/embed/IA0xQbAcKp8?si=ZlVlji2MoaAxd_tm",
+                video_link:
+                  "https://www.youtube.com/embed/IA0xQbAcKp8?si=ZlVlji2MoaAxd_tm",
               },
               {
                 video_id: "2-2-1-2",
                 video_title: "مها سعيد",
-                video_link: "https://www.youtube.com/embed/wjtdYJhefG0?si=3uD1FfNT_KH9vt77",
+                video_link:
+                  "https://www.youtube.com/embed/wjtdYJhefG0?si=3uD1FfNT_KH9vt77",
               },
             ],
           },
@@ -586,7 +619,8 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-2-2-2",
                 video_title: "نهال طارق",
-                video_link: "https://www.youtube.com/embed/p6wWtYsAzmI?si=tftFIAX5M2-oedcF",
+                video_link:
+                  "https://www.youtube.com/embed/p6wWtYsAzmI?si=tftFIAX5M2-oedcF",
               },
             ],
           },
@@ -598,12 +632,14 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-2-3-1",
                 video_title: "3d city",
-                video_link: "https://www.youtube.com/embed/ysKe2lzMfXc?si=wDODnUnpAT58JVKG",
+                video_link:
+                  "https://www.youtube.com/embed/ysKe2lzMfXc?si=wDODnUnpAT58JVKG",
               },
               {
                 video_id: "2-2-3-2",
                 video_title: "مها سعيد",
-                video_link: "https://www.youtube.com/embed/zRJUCqNdsak?si=Z83TazRULufsdAfx",
+                video_link:
+                  "https://www.youtube.com/embed/zRJUCqNdsak?si=Z83TazRULufsdAfx",
               },
             ],
           },
@@ -615,12 +651,14 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-2-4-1",
                 video_title: "تعلم مع نانا",
-                video_link: "https://www.youtube.com/embed/9sjQWcyOito?si=38S36smMi6uQ8GFD",
+                video_link:
+                  "https://www.youtube.com/embed/9sjQWcyOito?si=38S36smMi6uQ8GFD",
               },
               {
                 video_id: "2-2-4-2",
                 video_title: "نهال طارق",
-                video_link: "https://www.youtube.com/embed/YkQUFSZy7pQ?si=ROkaXueM6-ZYdJaL",
+                video_link:
+                  "https://www.youtube.com/embed/YkQUFSZy7pQ?si=ROkaXueM6-ZYdJaL",
               },
             ],
           },
@@ -632,12 +670,14 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-2-5-1",
                 video_title: "شيماء درويش",
-                video_link: "https://www.youtube.com/embed/j7sAfV5Vec8?si=kdfaojsLSCgxXM4v",
+                video_link:
+                  "https://www.youtube.com/embed/j7sAfV5Vec8?si=kdfaojsLSCgxXM4v",
               },
               {
                 video_id: "2-2-5-2",
                 video_title: "مها سعيد",
-                video_link: "https://www.youtube.com/embed/d9Hwpwr-ZPc?si=iO_anr2wyK1YTo2Y",
+                video_link:
+                  "https://www.youtube.com/embed/d9Hwpwr-ZPc?si=iO_anr2wyK1YTo2Y",
               },
             ],
           },
@@ -662,7 +702,8 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-2-7-1",
                 video_title: "تعلم مع نانا",
-                video_link: "https://www.youtube.com/embed/5jAMknFRAns?si=idilzkBzFtvTGqTr",
+                video_link:
+                  "https://www.youtube.com/embed/5jAMknFRAns?si=idilzkBzFtvTGqTr",
               },
             ],
           },
@@ -691,12 +732,14 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-3-1-1",
                 video_title: "3d city",
-                video_link: "https://www.youtube.com/embed/2Ld6Jou9KMg?si=_d_7lX_IHICzxDBw",
+                video_link:
+                  "https://www.youtube.com/embed/2Ld6Jou9KMg?si=_d_7lX_IHICzxDBw",
               },
               {
                 video_id: "2-3-1-2",
                 video_title: "مها سعيد",
-                video_link: "https://www.youtube.com/embed/6G7E7dlzLis?si=CYti59fsL8_26VXW",
+                video_link:
+                  "https://www.youtube.com/embed/6G7E7dlzLis?si=CYti59fsL8_26VXW",
               },
             ],
           },
@@ -708,7 +751,8 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-3-2-1",
                 video_title: "جميله عمر",
-                video_link: "https://www.youtube.com/embed/z9tZiCWvlwo?si=i1AdHzeQ8_oz_vFs",
+                video_link:
+                  "https://www.youtube.com/embed/z9tZiCWvlwo?si=i1AdHzeQ8_oz_vFs",
               },
               {
                 video_id: "2-3-2-2",
@@ -725,12 +769,14 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-3-3-1",
                 video_title: "3d city",
-                video_link: "https://www.youtube.com/embed/d5DIe12lRBM?si=YVEKZBXGXcvv59XS",
+                video_link:
+                  "https://www.youtube.com/embed/d5DIe12lRBM?si=YVEKZBXGXcvv59XS",
               },
               {
                 video_id: "2-3-3-2",
                 video_title: "مها سعيد",
-                video_link: "https://www.youtube.com/embed/7G7VhCn6YXA?si=3B2s-QxzJJbU2qNG",
+                video_link:
+                  "https://www.youtube.com/embed/7G7VhCn6YXA?si=3B2s-QxzJJbU2qNG",
               },
             ],
           },
@@ -742,7 +788,8 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-3-4-1",
                 video_title: "جميله عمر",
-                video_link: "https://www.youtube.com/embed/dplvrH7ghZs?si=GnB9vd_ZDx5CWNMD",
+                video_link:
+                  "https://www.youtube.com/embed/dplvrH7ghZs?si=GnB9vd_ZDx5CWNMD",
               },
               {
                 video_id: "2-3-4-2",
@@ -759,12 +806,14 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-3-5-1",
                 video_title: "مها سعيد",
-                video_link: "https://www.youtube.com/embed/9iHFxo7mAyE?si=24HvINxugcNkQ5CQ",
+                video_link:
+                  "https://www.youtube.com/embed/9iHFxo7mAyE?si=24HvINxugcNkQ5CQ",
               },
               {
                 video_id: "2-3-5-2",
                 video_title: "انا عربي : دعاء العقبي",
-                video_link: "https://www.youtube.com/embed/Q3VsIBCnHjA?si=W3l2G4L_4CletzvN",
+                video_link:
+                  "https://www.youtube.com/embed/Q3VsIBCnHjA?si=W3l2G4L_4CletzvN",
               },
             ],
           },
@@ -776,12 +825,14 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-3-6-1",
                 video_title: "مس داليا",
-                video_link: "https://www.youtube.com/embed/YS24MyMIhUk?si=d_9w27isQUqvs98r",
+                video_link:
+                  "https://www.youtube.com/embed/YS24MyMIhUk?si=d_9w27isQUqvs98r",
               },
               {
                 video_id: "2-3-6-2",
                 video_title: "تعلم مع نانا",
-                video_link: "https://www.youtube.com/embed/341QsJEWTLk?si=AamHLOK6EDkIs_y5",
+                video_link:
+                  "https://www.youtube.com/embed/341QsJEWTLk?si=AamHLOK6EDkIs_y5",
               },
             ],
           },
@@ -793,7 +844,8 @@ var g3_t1_arabic_lessons = [
               {
                 video_id: "2-3-7-1",
                 video_title: "انا عربي : دعاء العقبي",
-                video_link: "https://www.youtube.com/embed/IFcuc0y0mmA?si=Xw-C1M62VACFyZLI",
+                video_link:
+                  "https://www.youtube.com/embed/IFcuc0y0mmA?si=Xw-C1M62VACFyZLI",
               },
               {
                 video_id: "2-3-7-2",

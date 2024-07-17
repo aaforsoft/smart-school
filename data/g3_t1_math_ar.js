@@ -1,4 +1,8 @@
-import { draw_sub_books_list, draw_lessons } from "./fun.js";
+import {
+  draw_sub_books_list,
+  draw_lessons,
+  draw_fullvideo_list,
+} from "./fun.js";
 var g3_t1_math_ar_books = [
   {
     title: "سلاح التلميذ - الكتاب كامل",
@@ -13,7 +17,38 @@ g3_t1_math_ar_books.forEach(function (item) {
 
 document.getElementById("g3_t1_math_ar_books").innerHTML +=
   g3_t1_math_ar_books_elements;
+// full-video -----------
+var g3_t1_math_ar_fullvideo = [
+  {
+    video_title: "مستر محمد ابراهيم - شرح 2025",
+    video_link: "https://www.youtube.com/embed/videoseries?si=TbYYFhTs3gmIa2YV&amp;list=PLYGJU1U6eacOLKDZtuI52ZM3BvK2Xq2B8",
+  },
+  {
+    video_title: "مستر محمد ابراهيم - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=U--mO2XcDNe7tUHs&amp;list=PLYGJU1U6eacOXfmO5bl8dnS-2Wx7HEe2Z",
+  },
+  {
+    video_title: "مستر السيد ابراهيم - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=Uyt6rwyl5F4d5LF9&amp;list=PLyf8vjR0YHoP5Y7koJdRzsWUieec8RKNF",
+  },
+  {
+    video_title: "حكاية الرياضيات - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=GeHCTZbw-itxlup8&amp;list=PLx7dZcR8IPSWSWKDsgkh-nxWANEF_9pCB",
+  },
+  {
+    video_title: "ميس عبير عباس - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=V2Gb_kDXqh13ztnT&amp;list=PL3jaAblAPiYrb7KbV35ptnbqQhKYp7bwo",
+  },
+];
 
+let g3_t1_math_ar_fullvideo_elements = "";
+g3_t1_math_ar_fullvideo.forEach(function (item) {
+  g3_t1_math_ar_fullvideo_elements += draw_fullvideo_list(item);
+});
+
+document.getElementById("g3_t1_math_ar_fullvideo").innerHTML +=
+  g3_t1_math_ar_fullvideo_elements;
+//-------------------
 var g3_t1_math_ar_lessons = [
   //المحور 1
   {
@@ -804,7 +839,8 @@ var g3_t1_math_ar_lessons = [
               {
                 video_id: "1-6-7-1",
                 video_title: "مستر السيد ابراهيم",
-                video_link: "https://www.youtube.com/embed/rBFZc9joL6w?si=PP23FMrgLxUVz0m0",
+                video_link:
+                  "https://www.youtube.com/embed/rBFZc9joL6w?si=PP23FMrgLxUVz0m0",
               },
             ],
           },

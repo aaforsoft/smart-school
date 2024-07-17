@@ -1,4 +1,8 @@
-import { draw_sub_books_list, draw_lessons } from "./fun.js";
+import {
+  draw_sub_books_list,
+  draw_lessons,
+  draw_fullvideo_list,
+} from "./fun.js";
 var g3_t1_islamic_books = [
   {
     title: "سلاح التلميذ - الكتاب كامل",
@@ -14,6 +18,26 @@ g3_t1_islamic_books.forEach(function (item) {
 document.getElementById("g3_t1_islamic_books").innerHTML +=
   g3_t1_islamic_books_elements;
 
+// full-video -----------
+var g3_t1_islamic_ar_fullvideo = [
+  {
+    video_title: "ميس ماهيتاب - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=WXhKvF3GT2cmXx0y&amp;list=PLsxnuZtNUZW-XrC2k-9AKm-BzSDuLUCj5",
+  },
+  {
+    video_title: "ميس M.S - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=kxT03QAE0T5Yh1Fc&amp;list=PLzCtHNEpI9zp3o2IsA-CvvPjMBp6SiiTT",
+  },
+];
+
+let g3_t1_islamic_ar_fullvideo_elements = "";
+g3_t1_islamic_ar_fullvideo.forEach(function (item) {
+  g3_t1_islamic_ar_fullvideo_elements += draw_fullvideo_list(item);
+});
+
+document.getElementById("g3_t1_islamic_ar_fullvideo").innerHTML +=
+  g3_t1_islamic_ar_fullvideo_elements;
+//-------------------
 var g3_t1_islamic_lessons = [
   //المحور 1
   {
@@ -211,7 +235,7 @@ var g3_t1_islamic_lessons = [
                 video_id: "1-5-2-1",
                 video_title: "ميس ماهيتاب",
                 video_link:
-                  "https://www.youtube.com/embed/G60CV4Z7cMU?si=Hz6Lld_vEeBzwNRa",
+                  "https://www.youtube.com/embed/g30CV4Z7cMU?si=Hz6Lld_vEeBzwNRa",
               },
               {
                 video_id: "1-5-2-2",
@@ -278,12 +302,14 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "2-1-1-1",
                 video_title: "مس ماهيتاب",
-                video_link: "https://www.youtube.com/embed/EiXmevslX3g?si=W_NO_1msWyFif56o",
+                video_link:
+                  "https://www.youtube.com/embed/EiXmevslX3g?si=W_NO_1msWyFif56o",
               },
               {
                 video_id: "2-1-1-1",
                 video_title: "احمد توفيق مراد",
-                video_link: "https://www.youtube.com/embed/fIYaHv9JG7Y?si=p7kAFb1oxoD2t-hV",
+                video_link:
+                  "https://www.youtube.com/embed/fIYaHv9JG7Y?si=p7kAFb1oxoD2t-hV",
               },
             ],
           },
@@ -295,12 +321,14 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "2-1-2-1",
                 video_title: "مس ماهيتاب",
-                video_link: "https://www.youtube.com/embed/u3g8PbVK2lw?si=65hUJFlOh1F4BnZ4",
+                video_link:
+                  "https://www.youtube.com/embed/u3g8PbVK2lw?si=65hUJFlOh1F4BnZ4",
               },
               {
                 video_id: "2-1-2-2",
                 video_title: "احمد توفيق مراد",
-                video_link: "https://www.youtube.com/embed/fTmp5no0pBo?si=UNP9GHtGGrRAdvVA",
+                video_link:
+                  "https://www.youtube.com/embed/fTmp5no0pBo?si=UNP9GHtGGrRAdvVA",
               },
             ],
           },
@@ -312,12 +340,14 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "2-1-3-1",
                 video_title: "مس ماهيتاب",
-                video_link: "https://www.youtube.com/embed/qDeajbUHDjk?si=aYwSa_p37F2TK2fY",
+                video_link:
+                  "https://www.youtube.com/embed/qDeajbUHDjk?si=aYwSa_p37F2TK2fY",
               },
               {
                 video_id: "2-1-3-2",
                 video_title: "احمد توفيق مراد",
-                video_link: "https://www.youtube.com/embed/ySQjt0FogJM?si=v365KwZ3FBGD_4xo",
+                video_link:
+                  "https://www.youtube.com/embed/ySQjt0FogJM?si=v365KwZ3FBGD_4xo",
               },
             ],
           },
@@ -339,7 +369,8 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "2-2-1-1",
                 video_title: "احمد توفيق مراد",
-                video_link: "https://www.youtube.com/embed/2sZkObbqw6k?si=SoOKtFrPnDkC9ufg",
+                video_link:
+                  "https://www.youtube.com/embed/2sZkObbqw6k?si=SoOKtFrPnDkC9ufg",
               },
               {
                 video_id: "2-2-1-2",
@@ -367,7 +398,8 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "2-3-1-1",
                 video_title: "احمد توفيق مراد",
-                video_link: "https://www.youtube.com/embed/CIJqAAlnoeE?si=Bc-Gfj58o79X3dW0",
+                video_link:
+                  "https://www.youtube.com/embed/CIJqAAlnoeE?si=Bc-Gfj58o79X3dW0",
               },
             ],
           },
@@ -379,7 +411,8 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "2-3-2-1",
                 video_title: "احمد توفيق مراد",
-                video_link: "https://www.youtube.com/embed/zkvQuK3vxh0?si=jNTiJplem4Ac4eoX",
+                video_link:
+                  "https://www.youtube.com/embed/zkvQuK3vxh0?si=jNTiJplem4Ac4eoX",
               },
             ],
           },
@@ -391,7 +424,8 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "2-3-3-1",
                 video_title: "احمد توفيق مراد",
-                video_link: "https://www.youtube.com/embed/thv6zg_-Oqc?si=t1lczGGr3-FeD7Xp",
+                video_link:
+                  "https://www.youtube.com/embed/thv6zg_-Oqc?si=t1lczGGr3-FeD7Xp",
               },
             ],
           },
@@ -413,7 +447,8 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "2-4-1-1",
                 video_title: "احمد توفيق مراد",
-                video_link: "https://www.youtube.com/embed/Eei37w230FQ?si=pHhB0YnzTtov2WHH",
+                video_link:
+                  "https://www.youtube.com/embed/Eei37w230FQ?si=pHhB0YnzTtov2WHH",
               },
             ],
           },
@@ -437,7 +472,8 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "2-5-1-1",
                 video_title: "احمد توفيق مراد",
-                video_link: "https://www.youtube.com/embed/QXhRDd4bdiA?si=wyYBd-cJPj1nJHdG",
+                video_link:
+                  "https://www.youtube.com/embed/QXhRDd4bdiA?si=wyYBd-cJPj1nJHdG",
               },
             ],
           },
@@ -449,7 +485,8 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "2-5-2-1",
                 video_title: "احمد توفيق مراد",
-                video_link: "https://www.youtube.com/embed/xgbg-DlB_mM?si=W5CSpmCekeXZHjvT",
+                video_link:
+                  "https://www.youtube.com/embed/xgbg-DlB_mM?si=W5CSpmCekeXZHjvT",
               },
             ],
           },
@@ -461,7 +498,8 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "2-5-3-1",
                 video_title: "احمد توفيق مراد",
-                video_link: "https://www.youtube.com/embed/0CPXa9uEYzM?si=bfvbI7NiiBeQlG7g",
+                video_link:
+                  "https://www.youtube.com/embed/0CPXa9uEYzM?si=bfvbI7NiiBeQlG7g",
               },
             ],
           },
@@ -483,7 +521,8 @@ var g3_t1_islamic_lessons = [
               {
                 video_id: "2-6-1-1",
                 video_title: "احمد توفيق مراد",
-                video_link: "https://www.youtube.com/embed/bwrNNHPdB4k?si=wJIsLOZM2ShSqqAi",
+                video_link:
+                  "https://www.youtube.com/embed/bwrNNHPdB4k?si=wJIsLOZM2ShSqqAi",
               },
             ],
           },
