@@ -1,4 +1,4 @@
-import { draw_sub_books_list, draw_lessons } from "./fun.js";
+import { draw_sub_books_list, draw_lessons ,draw_fullvideo_list} from "./fun.js";
 var g5_t1_social_studies_ar_books = [
   {
     title: "سلاح التلميذ - الكتاب كامل",
@@ -13,7 +13,27 @@ g5_t1_social_studies_ar_books.forEach(function (item) {
 
 document.getElementById("g5_t1_social_studies_ar_books").innerHTML +=
   g5_t1_social_studies_ar_books_elements;
+// full-video -----------
+var g5_t1_social_studies_ar_fullvideo = [
+  {
+    video_title: "",
+    video_link: "",
+  },
+  {
+    video_title: "احمد محمد عبدالجواد - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=3-mQQuyhANeceP3V&amp;list=PLdmjP870vLqzWR2F9rrB7G3yQEanRProd",
+  },
+];
 
+let g5_t1_social_studies_ar_fullvideo_elements = "";
+g5_t1_social_studies_ar_fullvideo.forEach(function (item) {
+  g5_t1_social_studies_ar_fullvideo_elements += draw_fullvideo_list(item);
+});
+
+document.getElementById("g5_t1_social_studies_ar_fullvideo").innerHTML +=
+  g5_t1_social_studies_ar_fullvideo_elements;
+//-------------------
+  //lessons
 var g5_t1_social_studies_ar_lessons = [
   //المحور 1
   // المحور الأول: البيئة الطبيعية

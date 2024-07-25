@@ -1,4 +1,4 @@
-import { draw_sub_books_list, draw_lessons } from "./fun.js";
+import { draw_sub_books_list, draw_lessons ,draw_fullvideo_list} from "./fun.js";
 var g5_t1_science_ar_books = [
   {
     title: "سلاح التلميذ - الكتاب كامل",
@@ -13,7 +13,31 @@ g5_t1_science_ar_books.forEach(function (item) {
 
 document.getElementById("g5_t1_science_ar_books").innerHTML +=
   g5_t1_science_ar_books_elements;
+// full-video -----------
+var g5_t1_science_ar_fullvideo = [
+  {
+    video_title: "",
+    video_link: "",
+  },
+  {
+    video_title: "مستر محمد ابراهيم - تمارين الترم الاول 2024",
+    video_link: "https://www.youtube.com/embed/FxvYv8Q9_qA?si=m1NrKx603_0Oxz8T",
+  },
+  {
+    video_title: "مستر محمد ابراهيم -التميز تمارين الترم الاول 2024",
+    video_link: "https://www.youtube.com/embed/EQORLmOQ5Q8?si=_jmwvQjPfMcPBlTF",
+  }
+];
 
+let g5_t1_science_ar_fullvideo_elements = "";
+g5_t1_science_ar_fullvideo.forEach(function (item) {
+  g5_t1_science_ar_fullvideo_elements += draw_fullvideo_list(item);
+});
+
+document.getElementById("g5_t1_science_ar_fullvideo").innerHTML +=
+  g5_t1_science_ar_fullvideo_elements;
+//-------------------
+  //lessons
 var g5_t1_science_ar_lessons = [
   //المحور 1
   {

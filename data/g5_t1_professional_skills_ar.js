@@ -1,4 +1,4 @@
-import { draw_sub_books_list, draw_lessons } from "./fun.js";
+import { draw_sub_books_list, draw_lessons , draw_fullvideo_list} from "./fun.js";
 var g5_t1_professional_skills_ar_books = [
   {
     title: "سلاح التلميذ - الكتاب كامل",
@@ -13,7 +13,26 @@ g5_t1_professional_skills_ar_books.forEach(function (item) {
 
 document.getElementById("g5_t1_professional_skills_ar_books").innerHTML +=
   g5_t1_professional_skills_ar_books_elements;
+// full-video -----------
+var g5_t1_professional_skills_ar_fullvideo = [
+  {
+    video_title: "",
+    video_link: "",
+  },
+  {
+    video_title: "مستر محمد ابراهيم - حل التميز نهايو الترم 2024",
+    video_link: "https://www.youtube.com/embed/XwZdg4c_xY0?si=-wvxxi3OWDhMUiaa",
+  },
+];
 
+let g5_t1_professional_skills_ar_fullvideo_elements = "";
+g5_t1_professional_skills_ar_fullvideo.forEach(function (item) {
+  g5_t1_professional_skills_ar_fullvideo_elements += draw_fullvideo_list(item);
+});
+
+document.getElementById("g5_t1_professional_skills_ar_fullvideo").innerHTML +=
+  g5_t1_professional_skills_ar_fullvideo_elements;
+//-------------------
 var g5_t1_professional_skills_ar_lessons = [
   //المحور 1
   {

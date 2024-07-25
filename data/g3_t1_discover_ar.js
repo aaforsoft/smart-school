@@ -1,4 +1,8 @@
-import { draw_sub_books_list, draw_lessons } from "./fun.js";
+import {
+  draw_sub_books_list,
+  draw_lessons,
+  draw_fullvideo_list,
+} from "./fun.js";
 var g3_t1_discover_ar_books = [
   {
     title: "سلاح التلميذ - الكتاب كامل",
@@ -13,7 +17,26 @@ g3_t1_discover_ar_books.forEach(function (item) {
 
 document.getElementById("g3_t1_discover_ar_books").innerHTML +=
   g3_t1_discover_ar_books_elements;
+// full-video -----------
+var g3_t1_discover_ar_fullvideo = [
+  {
+    video_title: "منصات تعليمية - شرح 2022",
+    video_link: "https://www.youtube.com/embed/videoseries?si=29awdAWBdJzj_TFc&amp;list=PLUOeiPA5Mo5cxLis-J3HdQCbLSHLrr645",
+  },
+  {
+    video_title: "قناة الضحي تعليمية - شرح 2020",
+    video_link: "https://www.youtube.com/embed/videoseries?si=637evQVNVQF2gdcG&amp;list=PLWA6twJ9Qf7CmjUbnnjmttAM7kJM-R6B0",
+  },
+];
 
+let g3_t1_discover_ar_fullvideo_elements = "";
+g3_t1_discover_ar_fullvideo.forEach(function (item) {
+  g3_t1_discover_ar_fullvideo_elements += draw_fullvideo_list(item);
+});
+
+document.getElementById("g3_t1_discover_ar_fullvideo").innerHTML +=
+  g3_t1_discover_ar_fullvideo_elements;
+//-------------------
 var g3_t1_discover_ar_lessons = [
   //المحور 1
   //من أكون (الحياة الصحية)

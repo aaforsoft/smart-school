@@ -1,4 +1,4 @@
-import { draw_sub_books_list, draw_lessons } from "./fun.js";
+import { draw_sub_books_list, draw_lessons ,draw_fullvideo_list } from "./fun.js";
 var g5_t1_english_ar_books = [
   {
     title: "سلاح التلميذ - الكتاب كامل",
@@ -14,6 +14,31 @@ g5_t1_english_ar_books.forEach(function (item) {
 document.getElementById("g5_t1_english_ar_books").innerHTML +=
   g5_t1_english_ar_books_elements;
 
+  // full-video -----------
+var g5_t1_english_ar_fullvideo = [
+  {
+    video_title: "مستر انجليزي - شرح 2025",
+    video_link: "https://www.youtube.com/embed/videoseries?si=3W8uPYf_uZZVYwlW&amp;list=PLoADbtXeHbXXV8LCvKQ_7xtxZWrcK1OKD",
+  },
+  {
+    video_title: "مستر انجليزي - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=MyojVgvN6N7m_YX8&amp;list=PLoADbtXeHbXUuWt7xHhEp_Uu_I__fPLHQ",
+  },
+  {
+    video_title: "مستر انجليزي - شرح وتمارين 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=U_Fl63XzTjZIbW5c&amp;list=PLoADbtXeHbXVKfZR11S0O4McW1-vIWLtL",
+  },
+
+];
+
+let g5_t1_english_ar_fullvideo_elements = "";
+g5_t1_english_ar_fullvideo.forEach(function (item) {
+  g5_t1_english_ar_fullvideo_elements += draw_fullvideo_list(item);
+});
+
+document.getElementById("g5_t1_english_ar_fullvideo").innerHTML +=
+  g5_t1_english_ar_fullvideo_elements;
+//-------------------
 var g5_t1_english_ar_lessons = [
   //المحور 1
   {

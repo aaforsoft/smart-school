@@ -1,4 +1,4 @@
-import { draw_sub_books_list, draw_lessons } from "./fun.js";
+import { draw_sub_books_list, draw_lessons ,draw_fullvideo_list} from "./fun.js";
 var g5_t1_islamic_ar_books = [
   {
     title: "سلاح التلميذ - الكتاب كامل",
@@ -13,7 +13,35 @@ g5_t1_islamic_ar_books.forEach(function (item) {
 
 document.getElementById("g5_t1_islamic_ar_books").innerHTML +=
   g5_t1_islamic_ar_books_elements;
+// full-video -----------
+var g5_t1_islamic_ar_fullvideo = [
+  {
+    video_title: "مصطفي عبده - شرح 2025",
+    video_link: "https://www.youtube.com/embed/videoseries?si=VY980orMCADCNapG&amp;list=PLNTk23wqJXf8ZOR1K9ip9iwsGjdUgLYjj",
+  },
+  {
+    video_title: "احمد محمد عبدالجواد - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=vkimfab39Hph07Eg&amp;list=PLdmjP870vLqzFZb3V3tpw90HVsvS-Q9gK",
+  },
+  {
+    video_title: "حسام ابو انس - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=6sjrhmaLZcwwNxGL&amp;list=PLvZB_eXVOBDBI0cuBb2qRo3EDs0nHBzhW",
+  },
+  {
+    video_title: "مستر محمد ابراهيم -التميز تمارين الترم الاول 2024",
+    video_link: "https://www.youtube.com/embed/8S_sUaJR8dw?si=YJbtDbGbwyhcmbga",
+  }
 
+];
+
+let g5_t1_islamic_ar_fullvideo_elements = "";
+g5_t1_islamic_ar_fullvideo.forEach(function (item) {
+  g5_t1_islamic_ar_fullvideo_elements += draw_fullvideo_list(item);
+});
+
+document.getElementById("g5_t1_islamic_ar_fullvideo").innerHTML +=
+  g5_t1_islamic_ar_fullvideo_elements;
+//-------------------
 var g5_t1_islamic_ar_lessons = [
   //المحور 1
   {

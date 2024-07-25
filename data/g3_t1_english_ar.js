@@ -1,4 +1,4 @@
-import { draw_sub_books_list, draw_lessons } from "./fun.js";
+import { draw_sub_books_list, draw_lessons ,draw_fullvideo_list } from "./fun.js";
 var g3_t1_english_ar_books = [
   {
     title: "المعاصر - الكتاب كامل",
@@ -13,6 +13,27 @@ g3_t1_english_ar_books.forEach(function (item) {
 
 document.getElementById("g3_t1_english_ar_books").innerHTML +=
   g3_t1_english_ar_books_elements;
+
+// full-video -----------
+var g3_t1_english_ar_fullvideo = [
+  {
+    video_title: "مستر انجليزي - شرح 2025",
+    video_link: "https://www.youtube.com/embed/videoseries?si=otMMEsfqvbGcWcEw&amp;list=PLoADbtXeHbXUeADhUkzQKmI2hqYQE4Meq",
+  },
+  {
+    video_title: "مستر انجليزي - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=kKsBf0orZW6zb7ky&amp;list=PLoADbtXeHbXVo7_kfQhIpWBqI_S88SfBX",
+  },
+];
+
+let g3_t1_english_ar_fullvideo_elements = "";
+g3_t1_english_ar_fullvideo.forEach(function (item) {
+  g3_t1_english_ar_fullvideo_elements += draw_fullvideo_list(item);
+});
+
+document.getElementById("g3_t1_english_ar_fullvideo").innerHTML +=
+  g3_t1_english_ar_fullvideo_elements;
+//-------------------
 
 var g3_t1_english_ar_lessons = [
   //المحور 1

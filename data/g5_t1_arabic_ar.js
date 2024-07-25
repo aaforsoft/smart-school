@@ -1,4 +1,4 @@
-import { draw_sub_books_list, draw_lessons } from "./fun.js";
+import { draw_sub_books_list, draw_lessons ,draw_fullvideo_list } from "./fun.js";
 var g5_t1_arabic_ar_books = [
   {
     title: "سلاح التلميذ - الكتاب كامل",
@@ -13,7 +13,34 @@ g5_t1_arabic_ar_books.forEach(function (item) {
 
 document.getElementById("g5_t1_arabic_ar_books").innerHTML +=
   g5_t1_arabic_ar_books_elements;
+// full-video -----------
+var g5_t1_arabic_ar_fullvideo = [
+  {
+    video_title: " نتعلم بالراحة - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=gGOP2XZrdl3F-ryM&amp;list=PL_VBdaloj4iMa9HRNXwRry5kzART-81U2",
+  },
+  {
+    video_title: "مصطفي عبد العاطي - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=jDtiqjPSHomWnmL9&amp;list=PLNTk23wqJXf8cP27b6mg_5PPYjnpWDzDc",
+  },
+  {
+    video_title: "احمد محمد عبدالجواد - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=rn2vik5HArJfMtCO&amp;list=PLdmjP870vLqzQxlbpVI_YbD4GgkBOCXPB",
+  },
+  {
+    video_title: "ذاكرلي عربي - شرح 2024",
+    video_link: "https://www.youtube.com/embed/videoseries?si=nfxFvSXPhYjRqMtf&amp;list=PLmO7YhDrrq7DJqcfF77q7Wvb2Pp7e3HS7",
+  },
+];
 
+let g5_t1_arabic_ar_fullvideo_elements = "";
+g5_t1_arabic_ar_fullvideo.forEach(function (item) {
+  g5_t1_arabic_ar_fullvideo_elements += draw_fullvideo_list(item);
+});
+
+document.getElementById("g5_t1_arabic_ar_fullvideo").innerHTML +=
+  g5_t1_arabic_ar_fullvideo_elements;
+//-------------------
 var g5_t1_arabic_ar_lessons = [
   //المحور 1
   {
