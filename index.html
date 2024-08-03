@@ -529,6 +529,29 @@
       </ul>
     </div>
   </section>
+  <!-- رسالة هامة تظهر في بداية التصفح -->
+  <section>
+    <div id="messageModal" class="modal">
+      <div class="modal-content ">
+          <h4 class="center">رسالة هامة</h4>
+          <p style="line-height: 3;" dir="rtl">
+            الهدف من هذا الموقع : المساعدة في المذاكرة و عمل مراجع لكل المواد 
+          <br>
+          كل الفيديوهات بالموقع تم تجميعها من قنوات متعددة حسب البحث على اليوتيوب و تم تجميعها في مكان واحد لسهولة الوصول اليها 
+          وهي اجتهاد شخصي لا يتبع اي جهة ولا قناة معينة
+          <br>
+          فإذا كان لديك أي قناة أو فيديو وترغب في وضعها بالموقع فيسعدنا التواصل معنا علي جروب التيليجرام بأعلي الموقع  
+          <br>
+          ونسعد بتلقي أي ملاحظات أو اقتراحات لتطوير الموقع
+          <br>
+          وشكرا لكم جميعا
+          </p>
+      </div>
+      <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn">تم </a>
+      </div>
+  </div>
+  </section>
   <!-- footer -->
   <footer class="page-footer">
     <div class="container">
@@ -616,6 +639,13 @@
 
     const dropdown = document.querySelectorAll(".dropdown-trigger");
     M.Dropdown.init(dropdown);
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.modal');
+      var instances = M.Modal.init(elems);
+      var instance = M.Modal.getInstance(document.getElementById('messageModal'));
+      instance.open();
+  });
   </script>
 </body>
 
