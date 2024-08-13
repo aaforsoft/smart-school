@@ -9,16 +9,7 @@ function draw_sub_list(item) {
 
 function draw_sub_books_list(item) {
   return `
-  <div  class="col l2 m3 s6 center ">
-  <div class="card hoverable">
-      <div class="card-image waves-effect waves-block waves-light">
-          <img data-parent2="${item.link}" class="activator book-card" src="pic1.png">
-      </div>
-      <div class="book-card-title">
-          <a href="${item.link}" target="_blank" class="card-title activator grey-text text-darken-4 center">${item.title}</a>
-      </div>
-  </div>
-  </div>
+  <a class="collection-item" target="_blank" href="${item.link}">${item.title}</a>
   `;
 }
 

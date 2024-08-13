@@ -6,7 +6,7 @@ import {
 var g6_t1_social_studies_ar_books = [
   {
     title: "سلاح التلميذ - الكتاب كامل",
-    link: "",
+    link: "https://www.google.com/",
   },
 ];
 
@@ -25,7 +25,6 @@ var g6_t1_social_studies_ar_fullvideo = [
     video_link: "https://www.youtube.com/embed/videoseries?si=UcgBuFNwQENNE4cn&amp;list=PLNZylwdJLcQnODfeRVGbZCGqbQSI40hBC",
   },
 
-
 ];
 
 let g6_t1_social_studies_ar_fullvideo_elements = "";
@@ -41,7 +40,7 @@ var g6_t1_social_studies_ar_lessons = [
   //الوحدة 1
   {
     section_id: "1",
-    section_name: "الوحدة الاولي : عملية القسمة و العوامل و المضاعفات",
+    section_name: "الوحدة الاولي : ",
     chapters: [
       //الموضوع 1
       // المفهوم الاول : خوارزمية القسمة و العامل المشترك الأكبر و المضاعف المشترك الأصغر

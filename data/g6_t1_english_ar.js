@@ -21,6 +21,10 @@ document.getElementById("g6_t1_english_ar_books").innerHTML +=
 // full-video -----------
 var g6_t1_english_ar_fullvideo = [
   {
+    video_title: "مستر انجليزي - شرح 2025",
+    video_link: "https://www.youtube.com/embed/videoseries?si=_qMS7-UZpFuITY2m&amp;list=PLoADbtXeHbXV-8tOKXDVNgRakXGNMqxjt",
+  },
+  {
     video_title: "مستر انجليزي - شرح 2024",
     video_link: "https://www.youtube.com/embed/videoseries?si=hoTUQvskRVA54K8W&amp;list=PLoADbtXeHbXUIJ1BKZFGwyufF8XJ8rtSE",
   },
@@ -47,7 +51,7 @@ var g6_t1_english_ar_lessons = [
   //الوحدة 1
   {
     section_id: "1",
-    section_name: "الوحدة الاولي : عملية القسمة و العوامل و المضاعفات",
+    section_name: "الوحدة الاولي : ",
     chapters: [
       //الموضوع 1
       // المفهوم الاول : خوارزمية القسمة و العامل المشترك الأكبر و المضاعف المشترك الأصغر

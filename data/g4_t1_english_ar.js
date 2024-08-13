@@ -21,6 +21,11 @@ document.getElementById("g4_t1_english_ar_books").innerHTML +=
 // full-video -----------
 var g4_t1_english_ar_fullvideo = [
   {
+    video_title: "مستر انجليزي - شرح 2025",
+    video_link:
+      "https://www.youtube.com/embed/videoseries?si=JyJPrJ0pBAyvRqEW&amp;list=PLoADbtXeHbXUOEtEayHPS3i0ALSIJHXBR",
+  },
+  {
     video_title: "مستر انجليزي - شرح 2024",
     video_link:
       "https://www.youtube.com/embed/videoseries?si=e4c3ZT5HgrYAKa9q&amp;list=PLoADbtXeHbXVMThz0BPy1KocaFlcOPEpk",
