@@ -4,9 +4,29 @@ import {
   draw_fullvideo_list,
 } from "./fun.js";
 var g6_t1_science_ar_books = [
+  // {
+  //   title: "سلاح التلميذ - الكتاب كامل",
+  //   link: "",
+  // },
   {
-    title: "سلاح التلميذ - الكتاب كامل",
-    link: "",
+    title: "مذكرة المتميز في العلوم -  المحور الأول كاملًا  2023",
+    link: "https://t.me/ELMotamyezSchool/11080",
+  },
+  {
+    title: "بنك اسئلة المتميز الشامل - علي مقررات أكتوبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11099",
+  },
+  {
+    title: "بنك اسئلة المتميز الشامل - علي مقررات نوفمبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11134",
+  },
+  {
+    title: "مهام ادائية استرشادية",
+    link: "https://t.me/ELMotamyezSchool/11166",
+  },
+  {
+    title: "المتميز الشامل - بنك اسئلة علي مقرر الفصل الدراسي الاول بالكامل 2023",
+    link: "https://t.me/ELMotamyezSchool/11191",
   },
 ];
 

@@ -8,6 +8,18 @@ var g6_t1_arabic_ar_books = [
     title: "سلاح التلميذ - الكتاب كامل",
     link: "https://drive.google.com/file/d/1VQOOAV0_-xDVh5KcaLtgFhwmznShfK7D/view?usp=drive_link",
   },
+  {
+    title: "مراجعة المتميز - علي مقررات اكتوبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11114",
+  },
+  {
+    title: "مراجعة المتميز - علي مقررات نوفمبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11152",
+  },
+  {
+    title: "المهام الادائية جميع المواد",
+    link: "https://t.me/ELMotamyezSchool/11173",
+  },
 ];
 
 let g6_t1_arabic_ar_books_elements = "";

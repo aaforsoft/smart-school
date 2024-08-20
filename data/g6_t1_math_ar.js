@@ -4,6 +4,22 @@ var g6_t1_math_ar_books = [
     title: "سلاح التلميذ - الكتاب كامل",
     link: "https://drive.google.com/file/d/1K7ioySRIY4Iz8TOXF8cfFWPX33Hv7aQX/view?usp=drive_link",
   },
+  {
+    title: "بنك اسئلة المتميز الشامل - علي مقررات أكتوبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11101",
+  },
+  {
+    title: "بنك اسئلة المتميز الشامل - علي مقررات نوفمبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11129",
+  },
+  {
+    title: "مهام ادائية استرشادية",
+    link: "https://t.me/ELMotamyezSchool/11168",
+  },
+  {
+    title: "المتميز الشامل - بنك اسئلة علي مقرر الفصل الدراسي الاول بالكامل 2023",
+    link: "https://t.me/ELMotamyezSchool/11194",
+  },
 ];
 
 let g6_t1_math_ar_books_elements = "";

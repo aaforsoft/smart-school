@@ -4,9 +4,21 @@ import {
   draw_fullvideo_list,
 } from "./fun.js";
 var g4_t1_social_studies_ar_books = [
+  // {
+  //   title: "سلاح التلميذ - الكتاب كامل",
+  //   link: "",
+  // },
   {
-    title: "سلاح التلميذ - الكتاب كامل",
-    link: "",
+    title: "بنك اسئلة المتميز الشامل - علي مقررات أكتوبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11096",
+  },
+  {
+    title: "بنك اسئلة المتميز الشامل - علي مقررات نوفمبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11146",
+  },
+  {
+    title: "بنك اسئلة المتميز الشامل - علي مقرر الفصل الدراسي الاول بالكامل 2023",
+    link: "https://t.me/ELMotamyezSchool/11205",
   },
 ];
 

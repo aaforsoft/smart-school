@@ -4,9 +4,21 @@ import {
   draw_fullvideo_list,
 } from "./fun.js";
 var g4_t1_arabic_ar_books = [
+  // {
+  //   title: "سلاح التلميذ - الكتاب كامل",
+  //   link: "",
+  // },
   {
-    title: "سلاح التلميذ - الكتاب كامل",
-    link: "",
+    title: "مراجعة المتميز - علي مقررات اكتوبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11111",
+  },
+  {
+    title: "مراجعة المتميز - علي مقررات نوفمبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11148",
+  },
+  {
+    title: "المهام الادائية جميع المواد",
+    link: "https://t.me/ELMotamyezSchool/11169",
   },
 ];
 

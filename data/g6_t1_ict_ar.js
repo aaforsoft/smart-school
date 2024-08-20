@@ -4,9 +4,25 @@ import {
   draw_fullvideo_list,
 } from "./fun.js";
 var g6_t1_ict_ar_books = [
+  // {
+  //   title: "سلاح التلميذ - الكتاب كامل",
+  //   link: "",
+  // },
   {
-    title: "سلاح التلميذ - الكتاب كامل",
-    link: "",
+    title: " مراجعة المتميز علي مقررات اكتوبر ، شرح + بنك اسئلة - 2023",
+    link: "https://t.me/ELMotamyezSchool/11085",
+  },
+  {
+    title: " مراجعة المتميز علي مقررات نوفمبر ، شرح + بنك اسئلة - 2023",
+    link: "https://t.me/ELMotamyezSchool/11126",
+  },
+  {
+    title: " مهام آدائية - 2023",
+    link: "https://t.me/ELMotamyezSchool/11164",
+  },
+  {
+    title: " مراجعة المتميز بنك اسئلة علي مقرر الفصل الدراسي الاول بالكامل- 2023",
+    link: "https://t.me/ELMotamyezSchool/11188",
   },
 ];
 

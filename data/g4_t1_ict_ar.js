@@ -4,10 +4,23 @@ import {
   draw_fullvideo_list,
 } from "./fun.js";
 var g4_t1_ict_ar_books = [
+  // {
+  //   title: "سلاح التلميذ - الكتاب كامل",
+  //   link: "",
+  // },
   {
-    title: "سلاح التلميذ - الكتاب كامل",
-    link: "",
+    title: "مراجعة المتميز علي مقررات اكتوبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11081",
   },
+  {
+    title: "مراجعة المتميز علي مقررات نوفمبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11125",
+  },
+  {
+    title: " المتميز بنك اسئلة علي مقرر الفصل الدراسي الاول بالكامل 2023",
+    link: "https://t.me/ELMotamyezSchool/11190",
+  },
+  
 ];
 
 let g4_t1_ict_ar_books_elements = "";
@@ -53,7 +66,7 @@ var g4_t1_ict_ar_lessons = [
   //الوحدة 1
   {
     section_id: "1",
-    section_name: "الوحدة الاولي : اا",
+    section_name: "الوحدة الاولي : ",
     chapters: [
       //الموضوع 1
       // المفهوم الاول : خوارزمية القسمة و العامل المشترك الأكبر و المضاعف المشترك الأصغر

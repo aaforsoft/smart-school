@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Import style.css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>الصف السادس - اللغة العربية - اختبارات</title>
+    <style>
+        .question {
+            min-height: 200px;
+            padding: 10px;
+        }
+
+        .question h5 {
+            line-height: 30px;
+        }
+
+        .answers {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .answers button {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .questionNum {
+            margin-top: 20px;
+        }
+
+        .questionNum button {
+            width: 100%;
+        }
+
+        .questionNum div {
+            margin-bottom: 1rem;
+        }
+
+        .nextPrevious {
+            margin-top: 5rem;
+        }
+
+        .nextPrevious a {
+            width: 100%;
+        }
+
+        .greenborder {
+            border: 1px solid green;
+            box-shadow: 0 0 10px green !important;
+        }
+    </style>
+</head>
+
+<body>
+    <h5 class="center">اختبار شهر 11-2023</h5>
+    <section class="container">
+        <div id="questionNum" class="row questionNum">
+    </section>
+    <section id="g6_t1_arabic_ar_ex1" class="container"></section>
+    
+
+    </div>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="data/g6_t1_arabic_ar_ex.js"></script>
+    <script>
+        let CorrectAnswers = 0;
+
+        // when page loads, show the first question
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById(`q1`).classList.remove("hide");
+        });
+
+        function clickAnswer(ansBtn) {
+            //get currentQuestionNum
+            const currentQuestionNum = ansBtn.getAttribute('data-currentQuestionNum');
+            // get the current questionTopBtn
+            let currentQuestionTopBtn = document.getElementById(`qNum${currentQuestionNum}`);
+            // check if the answer is correct
+            // make the correct answer green and the wrong answer red
+            if (ansBtn.classList.contains('userSelect')) {
+                return;
+            }
+            if (ansBtn.getAttribute('data-parent') === 'true') {
+                CorrectAnswers++;
+                ansBtn.classList.remove('blue', 'lighten-5', 'black-text');
+                ansBtn.classList.add('green', 'white-text', 'userSelect');
+                //make questionTopBtn green
+                currentQuestionTopBtn.classList.remove('yellow', 'lighten-5');
+                currentQuestionTopBtn.classList.add('green', 'white-text');
+            } else {
+                ansBtn.classList.remove('blue', 'lighten-5', 'black-text');
+                ansBtn.classList.add('red', 'white-text', 'userSelect');
+                //make questionTopBtn red
+                currentQuestionTopBtn.classList.remove('yellow', 'lighten-5');
+                currentQuestionTopBtn.classList.add('red', 'white-text');
+            }
+            // disable the other answers
+            // get the current question div
+            let currentQuestionDiv = document.getElementById(`q${currentQuestionNum}`);
+            currentQuestionDiv.querySelectorAll('.answerQNumber' + currentQuestionNum).forEach((button) => {
+                // console.log("button");
+                if (!button.classList.contains("userSelect")) {
+                    button.classList.add('disabled');
+                }
+            });
+            // active next button
+            document.getElementById(`next${currentQuestionNum}`).classList.remove("disabled");
+            console.log("CorrectAnswers: ", CorrectAnswers);
+            // check if it is the last question
+            currentQuestionNumInt = parseInt(currentQuestionNum);
+            if (currentQuestionNumInt === examCount) {
+                document.getElementById(`next${currentQuestionNum}`).innerHTML = "النتيجة";
+            }
+        }
+        // click next button
+        function clickNext(nextBtn) {
+            let currentNextBtnIndex = nextBtn.getAttribute('data-currentQuestionNum');
+            if (currentNextBtnIndex < examCount) {
+                document.getElementById(`q${currentNextBtnIndex}`).classList.add("hide");
+                let nextQuestionIndex = parseInt(currentNextBtnIndex) + 1;
+                document.getElementById(`q${nextQuestionIndex}`).classList.remove("hide");
+                document.getElementById(`qNum${nextQuestionIndex}`).classList.remove("disabled");
+            } else {
+                document.getElementById(`q${currentNextBtnIndex}`).classList.add("hide");
+                let persentage = ((CorrectAnswers / examCount) * 100).toFixed(1);
+               
+                document.getElementById(`g6_t1_arabic_ar_ex1`).innerHTML += `
+                    <div style="padding: 5px;" class="center card  lime lighten-5">
+                        <div class="row">
+                            <div class="col s6 m6">
+                                <h4> ${CorrectAnswers}</h4>
+                                <div class="divider"></div>
+                                <h4> ${examCount}</h4>
+                            </div>
+                        <div class="col s6 m6">
+                            <br>
+                            <br>    
+                            <h5>نتيجة الاختبار</h5>
+                        </div>
+                    </div>
+                    <h5>% النسبة المئوية ${persentage} </h5>
+                    <button onclick="resetExam()" class="btn">اعادة الاختبار <i class="material-icons left">refresh</i></button>
+                    <h6 class="gray-text">يمكنك الان مراجعة الاختبار بالضغط علي الرقم في الاعلي</h6>
+                    
+                `;
+                document.querySelectorAll('.nextBtn').forEach((button) => {
+                    button.classList.add('hide');
+                });
+                // if i click qNum button, show the question and hide the result
+                document.querySelectorAll('.qNum').forEach((button) => {
+                    button.addEventListener('click', function () {
+                        let currentQuestionNum = button.getAttribute('data-currentQuestionNum');
+                        document.querySelectorAll('.qdiv').forEach((div) => {
+                            div.classList.add("hide");
+                        });
+                        document.getElementById(`q${currentQuestionNum}`).classList.remove("hide");
+                    });
+                });
+                // make green shape for all correct answers
+                document.querySelectorAll('.answer').forEach((button) => {
+                    if (button.getAttribute('data-parent') === 'true') {
+                        button.classList.add('greenborder');
+                    }
+                });
+            }
+        }
+        function resetExam() {
+            // refrish the page
+            location.reload();
+        }
+    </script>
+</body>
+
+</html>

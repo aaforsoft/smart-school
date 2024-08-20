@@ -5,6 +5,18 @@ var g5_t1_islamic_ar_books = [
     title: "سلاح التلميذ - الكتاب كامل",
     link: "https://drive.google.com/file/d/1GTZNjgl8LFchUZeY7y6diD_R5zsLKUY7/view?usp=drive_link",
   },
+  {
+    title: "بنك اسئلة المتميز الشامل علي مقررات أكتوبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11082",
+  },
+  {
+    title: "بنك اسئلة المتميز الشامل علي مقررات نوفمبر 2023",
+    link: "https://t.me/ELMotamyezSchool/11122",
+  },
+  {
+    title: "بنك اسئلة المتميز الشامل علي مقررات الفصل الدراسي الأول 2023",
+    link: "https://t.me/ELMotamyezSchool/11184",
+  },
 ];
 
 let g5_t1_islamic_ar_books_elements = "";
